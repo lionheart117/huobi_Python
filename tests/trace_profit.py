@@ -117,10 +117,17 @@ def sell_dif_rate_hysteresis(sell_dif_rate, interval_flag_list, hysteresis_cnt, 
     if not (len(interval_upper_boundary_list) == len(interval_flag_list) == len(interval_rate_list) == len(interval_delta_list)):
         return -1
     
-    for index, interval in enumerate(interval_upper_boundary_list):
+    for index_boundary, interval in enumerate(interval_upper_boundary_list):
         if price_dif > 0 and price_dif_rate < interval:
             break
-    
+    for index_flag, flag in enumerate(interval_flag_list):
+        if flag == 0:
+            break
+    if index_boundary >= index_flag:
+        index = index_boundary
+    else:
+        index = index_flag
+
     #print("index=%d\n" % index)
 
     if interval_flag_list[index] != 1:
