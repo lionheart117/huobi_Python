@@ -231,7 +231,7 @@ def must_buy_sell(order_type, base_symbol, quote_symbol, amount, price, max_time
         amount -= canceled_orderObj.filled_amount
 
 def precision_cali(num,precision):
-    num_str = str(num)
+    num_str = format(num, '.20f')
     return float(num_str.split('.')[0] + '.' + num_str.split('.')[1][:precision])
 
 def get_symbol_info(symbol):
