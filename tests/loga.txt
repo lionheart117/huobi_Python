@@ -1,0 +1,3152 @@
+Currency : lun
+Balance Type : trade
+Balance : 0
+
+Currency : lun
+Balance Type : frozen
+Balance : 0
+
+Currency : ksm
+Balance Type : trade
+Balance : 0
+
+Currency : ksm
+Balance Type : frozen
+Balance : 0
+
+Currency : fil
+Balance Type : trade
+Balance : 0
+
+Currency : fil
+Balance Type : frozen
+Balance : 0
+
+Currency : bag
+Balance Type : trade
+Balance : 0
+
+Currency : bag
+Balance Type : frozen
+Balance : 0
+
+Currency : kcash
+Balance Type : trade
+Balance : 0
+
+Currency : kcash
+Balance Type : frozen
+Balance : 0
+
+Currency : bal
+Balance Type : trade
+Balance : 0
+
+Currency : bal
+Balance Type : frozen
+Balance : 0
+
+Currency : theta
+Balance Type : trade
+Balance : 0
+
+Currency : theta
+Balance Type : frozen
+Balance : 0
+
+Currency : npxs
+Balance Type : trade
+Balance : 0
+
+Currency : npxs
+Balance Type : frozen
+Balance : 0
+
+Currency : fis
+Balance Type : trade
+Balance : 0
+
+Currency : fis
+Balance Type : frozen
+Balance : 0
+
+Currency : trio
+Balance Type : trade
+Balance : 0
+
+Currency : trio
+Balance Type : frozen
+Balance : 0
+
+Currency : egt
+Balance Type : trade
+Balance : 0
+
+Currency : egt
+Balance Type : frozen
+Balance : 0
+
+Currency : stpt
+Balance Type : trade
+Balance : 0
+
+Currency : stpt
+Balance Type : frozen
+Balance : 0
+
+Currency : bat
+Balance Type : trade
+Balance : 0
+
+Currency : bat
+Balance Type : frozen
+Balance : 0
+
+Currency : mxc
+Balance Type : trade
+Balance : 0
+
+Currency : mxc
+Balance Type : frozen
+Balance : 0
+
+Currency : near
+Balance Type : trade
+Balance : 0
+
+Currency : near
+Balance Type : frozen
+Balance : 0
+
+Currency : rai
+Balance Type : trade
+Balance : 0
+
+Currency : rai
+Balance Type : frozen
+Balance : 0
+
+Currency : xmr
+Balance Type : trade
+Balance : 0
+
+Currency : xmr
+Balance Type : frozen
+Balance : 0
+
+Currency : xmx
+Balance Type : trade
+Balance : 0
+
+Currency : xmx
+Balance Type : frozen
+Balance : 0
+
+Currency : iris
+Balance Type : trade
+Balance : 0
+
+Currency : iris
+Balance Type : frozen
+Balance : 0
+
+Currency : cdc
+Balance Type : trade
+Balance : 0
+
+Currency : cdc
+Balance Type : frozen
+Balance : 0
+
+Currency : ae
+Balance Type : trade
+Balance : 0
+
+Currency : ae
+Balance Type : frozen
+Balance : 0
+
+Currency : husd
+Balance Type : trade
+Balance : 0
+
+Currency : husd
+Balance Type : frozen
+Balance : 0
+
+Currency : ar
+Balance Type : trade
+Balance : 0
+
+Currency : ar
+Balance Type : frozen
+Balance : 0
+
+Currency : dot2l
+Balance Type : trade
+Balance : 0
+
+Currency : dot2l
+Balance Type : frozen
+Balance : 0
+
+Currency : eth3l
+Balance Type : trade
+Balance : 0
+
+Currency : eth3l
+Balance Type : frozen
+Balance : 0
+
+Currency : cova
+Balance Type : trade
+Balance : 0
+
+Currency : cova
+Balance Type : frozen
+Balance : 0
+
+Currency : wnxm
+Balance Type : trade
+Balance : 0
+
+Currency : wnxm
+Balance Type : frozen
+Balance : 0
+
+Currency : eth3s
+Balance Type : trade
+Balance : 0
+
+Currency : eth3s
+Balance Type : frozen
+Balance : 0
+
+Currency : wing
+Balance Type : trade
+Balance : 0
+
+Currency : wing
+Balance Type : frozen
+Balance : 0
+
+Currency : dgb
+Balance Type : trade
+Balance : 0
+
+Currency : dgb
+Balance Type : frozen
+Balance : 0
+
+Currency : dot2s
+Balance Type : trade
+Balance : 0
+
+Currency : dot2s
+Balance Type : frozen
+Balance : 0
+
+Currency : dgd
+Balance Type : trade
+Balance : 0
+
+Currency : dgd
+Balance Type : frozen
+Balance : 0
+
+Currency : zrx
+Balance Type : trade
+Balance : 0
+
+Currency : zrx
+Balance Type : frozen
+Balance : 0
+
+Currency : bcd
+Balance Type : trade
+Balance : 0
+
+Currency : bcd
+Balance Type : frozen
+Balance : 0
+
+Currency : aac
+Balance Type : trade
+Balance : 0.0035
+
+Currency : aac
+Balance Type : frozen
+Balance : 0
+
+Currency : bch
+Balance Type : trade
+Balance : 0
+
+Currency : bch
+Balance Type : frozen
+Balance : 0
+
+Currency : jst
+Balance Type : trade
+Balance : 0
+
+Currency : jst
+Balance Type : frozen
+Balance : 0
+
+Currency : hot
+Balance Type : trade
+Balance : 0
+
+Currency : hot
+Balance Type : frozen
+Balance : 0
+
+Currency : qash
+Balance Type : trade
+Balance : 0
+
+Currency : qash
+Balance Type : frozen
+Balance : 0
+
+Currency : ardr
+Balance Type : trade
+Balance : 0
+
+Currency : ardr
+Balance Type : frozen
+Balance : 0
+
+Currency : bcv
+Balance Type : trade
+Balance : 0
+
+Currency : bcv
+Balance Type : frozen
+Balance : 0
+
+Currency : bcx
+Balance Type : trade
+Balance : 0
+
+Currency : bcx
+Balance Type : frozen
+Balance : 0
+
+Currency : matic
+Balance Type : trade
+Balance : 0
+
+Currency : matic
+Balance Type : frozen
+Balance : 0
+
+Currency : rcn
+Balance Type : trade
+Balance : 0
+
+Currency : rcn
+Balance Type : frozen
+Balance : 0
+
+Currency : uip
+Balance Type : trade
+Balance : 0
+
+Currency : uip
+Balance Type : frozen
+Balance : 0
+
+Currency : mzk
+Balance Type : trade
+Balance : 0
+
+Currency : mzk
+Balance Type : frozen
+Balance : 0
+
+Currency : salt
+Balance Type : trade
+Balance : 0
+
+Currency : salt
+Balance Type : frozen
+Balance : 0
+
+Currency : lxt
+Balance Type : trade
+Balance : 0
+
+Currency : lxt
+Balance Type : frozen
+Balance : 0
+
+Currency : nhbtc
+Balance Type : trade
+Balance : 0
+
+Currency : nhbtc
+Balance Type : frozen
+Balance : 0
+
+Currency : abl
+Balance Type : trade
+Balance : 0
+
+Currency : abl
+Balance Type : frozen
+Balance : 0
+
+Currency : glm
+Balance Type : trade
+Balance : 0
+
+Currency : glm
+Balance Type : frozen
+Balance : 0
+
+Currency : hpt
+Balance Type : trade
+Balance : 318.08086448
+
+Currency : hpt
+Balance Type : frozen
+Balance : 0
+
+Currency : gnx
+Balance Type : trade
+Balance : 0
+
+Currency : gnx
+Balance Type : frozen
+Balance : 0
+
+Currency : dht
+Balance Type : trade
+Balance : 0
+
+Currency : dht
+Balance Type : frozen
+Balance : 0
+
+Currency : abt
+Balance Type : trade
+Balance : 0
+
+Currency : abt
+Balance Type : frozen
+Balance : 0
+
+Currency : rdn
+Balance Type : trade
+Balance : 0
+
+Currency : rdn
+Balance Type : frozen
+Balance : 0
+
+Currency : eth1s
+Balance Type : trade
+Balance : 0
+
+Currency : eth1s
+Balance Type : frozen
+Balance : 0
+
+Currency : gof
+Balance Type : trade
+Balance : 0
+
+Currency : gof
+Balance Type : frozen
+Balance : 0
+
+Currency : lym
+Balance Type : trade
+Balance : 0
+
+Currency : lym
+Balance Type : frozen
+Balance : 0
+
+Currency : zjlt
+Balance Type : trade
+Balance : 0
+
+Currency : zjlt
+Balance Type : frozen
+Balance : 0
+
+Currency : df
+Balance Type : trade
+Balance : 0
+
+Currency : df
+Balance Type : frozen
+Balance : 0
+
+Currency : ach
+Balance Type : trade
+Balance : 0
+
+Currency : ach
+Balance Type : frozen
+Balance : 0
+
+Currency : eko
+Balance Type : trade
+Balance : 0
+
+Currency : eko
+Balance Type : frozen
+Balance : 0
+
+Currency : sexc
+Balance Type : trade
+Balance : 0
+
+Currency : sexc
+Balance Type : frozen
+Balance : 0
+
+Currency : bel
+Balance Type : trade
+Balance : 0
+
+Currency : bel
+Balance Type : frozen
+Balance : 0
+
+Currency : ekt
+Balance Type : trade
+Balance : 0
+
+Currency : ekt
+Balance Type : frozen
+Balance : 0
+
+Currency : act
+Balance Type : trade
+Balance : 0
+
+Currency : act
+Balance Type : frozen
+Balance : 0
+
+Currency : woo
+Balance Type : trade
+Balance : 0
+
+Currency : woo
+Balance Type : frozen
+Balance : 0
+
+Currency : itc
+Balance Type : trade
+Balance : 0
+
+Currency : itc
+Balance Type : frozen
+Balance : 0
+
+Currency : pai
+Balance Type : trade
+Balance : 0
+
+Currency : pai
+Balance Type : frozen
+Balance : 0
+
+Currency : meetone
+Balance Type : trade
+Balance : 0
+
+Currency : meetone
+Balance Type : frozen
+Balance : 0
+
+Currency : ren
+Balance Type : trade
+Balance : 0
+
+Currency : ren
+Balance Type : frozen
+Balance : 0
+
+Currency : ela
+Balance Type : trade
+Balance : 0
+
+Currency : ela
+Balance Type : frozen
+Balance : 0
+
+Currency : elf
+Balance Type : trade
+Balance : 0
+
+Currency : elf
+Balance Type : frozen
+Balance : 0
+
+Currency : ada
+Balance Type : trade
+Balance : 0
+
+Currency : ada
+Balance Type : frozen
+Balance : 0
+
+Currency : req
+Balance Type : trade
+Balance : 0
+
+Currency : req
+Balance Type : frozen
+Balance : 0
+
+Currency : add
+Balance Type : trade
+Balance : 0
+
+Currency : add
+Balance Type : frozen
+Balance : 0
+
+Currency : usd01
+Balance Type : trade
+Balance : 0
+
+Currency : usd01
+Balance Type : frozen
+Balance : 0
+
+Currency : eos3l
+Balance Type : trade
+Balance : 0
+
+Currency : eos3l
+Balance Type : frozen
+Balance : 0
+
+Currency : tusd
+Balance Type : trade
+Balance : 0
+
+Currency : tusd
+Balance Type : frozen
+Balance : 0
+
+Currency : eoss
+Balance Type : trade
+Balance : 0
+
+Currency : eoss
+Balance Type : frozen
+Balance : 0
+
+Currency : pax
+Balance Type : trade
+Balance : 0
+
+Currency : pax
+Balance Type : frozen
+Balance : 0
+
+Currency : em
+Balance Type : trade
+Balance : 0
+
+Currency : em
+Balance Type : frozen
+Balance : 0
+
+Currency : pay
+Balance Type : trade
+Balance : 0
+
+Currency : pay
+Balance Type : frozen
+Balance : 0
+
+Currency : rbtc
+Balance Type : trade
+Balance : 0
+
+Currency : rbtc
+Balance Type : frozen
+Balance : 0
+
+Currency : eos3s
+Balance Type : trade
+Balance : 0
+
+Currency : eos3s
+Balance Type : frozen
+Balance : 0
+
+Currency : chr
+Balance Type : trade
+Balance : 0
+
+Currency : chr
+Balance Type : frozen
+Balance : 0
+
+Currency : egcc
+Balance Type : trade
+Balance : 0
+
+Currency : egcc
+Balance Type : frozen
+Balance : 0
+
+Currency : adt
+Balance Type : trade
+Balance : 0
+
+Currency : adt
+Balance Type : frozen
+Balance : 0
+
+Currency : bft
+Balance Type : trade
+Balance : 0
+
+Currency : bft
+Balance Type : frozen
+Balance : 0
+
+Currency : she
+Balance Type : trade
+Balance : 0
+
+Currency : she
+Balance Type : frozen
+Balance : 0
+
+Currency : sand
+Balance Type : trade
+Balance : 0
+
+Currency : sand
+Balance Type : frozen
+Balance : 0
+
+Currency : bch3l
+Balance Type : trade
+Balance : 0
+
+Currency : bch3l
+Balance Type : frozen
+Balance : 0
+
+Currency : adx
+Balance Type : trade
+Balance : 0
+
+Currency : adx
+Balance Type : frozen
+Balance : 0
+
+Currency : bch3s
+Balance Type : trade
+Balance : 0
+
+Currency : bch3s
+Balance Type : frozen
+Balance : 0
+
+Currency : chz
+Balance Type : trade
+Balance : 0
+
+Currency : chz
+Balance Type : frozen
+Balance : 0
+
+Currency : xrp
+Balance Type : trade
+Balance : 0
+
+Currency : xrp
+Balance Type : frozen
+Balance : 0
+
+Currency : wpr
+Balance Type : trade
+Balance : 0
+
+Currency : wpr
+Balance Type : frozen
+Balance : 0
+
+Currency : dka
+Balance Type : trade
+Balance : 0
+
+Currency : dka
+Balance Type : frozen
+Balance : 0
+
+Currency : xrt
+Balance Type : trade
+Balance : 0
+
+Currency : xrt
+Balance Type : frozen
+Balance : 0
+
+Currency : hc
+Balance Type : trade
+Balance : 0
+
+Currency : hc
+Balance Type : frozen
+Balance : 0
+
+Currency : for
+Balance Type : trade
+Balance : 0
+
+Currency : for
+Balance Type : frozen
+Balance : 0
+
+Currency : uma
+Balance Type : trade
+Balance : 0
+
+Currency : uma
+Balance Type : frozen
+Balance : 0
+
+Currency : sbtc
+Balance Type : trade
+Balance : 0
+
+Currency : sbtc
+Balance Type : frozen
+Balance : 0
+
+Currency : luna
+Balance Type : trade
+Balance : 0
+
+Currency : luna
+Balance Type : frozen
+Balance : 0
+
+Currency : bcha
+Balance Type : trade
+Balance : 0
+
+Currency : bcha
+Balance Type : frozen
+Balance : 0
+
+Currency : yfii
+Balance Type : trade
+Balance : 0
+
+Currency : yfii
+Balance Type : frozen
+Balance : 0
+
+Currency : lend
+Balance Type : trade
+Balance : 0
+
+Currency : lend
+Balance Type : frozen
+Balance : 0
+
+Currency : eng
+Balance Type : trade
+Balance : 0
+
+Currency : eng
+Balance Type : frozen
+Balance : 0
+
+Currency : bhd
+Balance Type : trade
+Balance : 0
+
+Currency : bhd
+Balance Type : frozen
+Balance : 0
+
+Currency : enj
+Balance Type : trade
+Balance : 0
+
+Currency : enj
+Balance Type : frozen
+Balance : 0
+
+Currency : kzt
+Balance Type : trade
+Balance : 0
+
+Currency : kzt
+Balance Type : frozen
+Balance : 0
+
+Currency : nsbt
+Balance Type : trade
+Balance : 0
+
+Currency : nsbt
+Balance Type : frozen
+Balance : 0
+
+Currency : grt
+Balance Type : trade
+Balance : 0
+
+Currency : grt
+Balance Type : frozen
+Balance : 0
+
+Currency : grs
+Balance Type : trade
+Balance : 0
+
+Currency : grs
+Balance Type : frozen
+Balance : 0
+
+Currency : gt
+Balance Type : trade
+Balance : 0
+
+Currency : gt
+Balance Type : frozen
+Balance : 0
+
+Currency : hbc
+Balance Type : trade
+Balance : 0
+
+Currency : hbc
+Balance Type : frozen
+Balance : 0
+
+Currency : uni
+Balance Type : trade
+Balance : 0
+
+Currency : uni
+Balance Type : frozen
+Balance : 0
+
+Currency : gsc
+Balance Type : trade
+Balance : 0
+
+Currency : gsc
+Balance Type : frozen
+Balance : 0
+
+Currency : ckb
+Balance Type : trade
+Balance : 0
+
+Currency : ckb
+Balance Type : frozen
+Balance : 0
+
+Currency : xtz
+Balance Type : trade
+Balance : 0
+
+Currency : xtz
+Balance Type : frozen
+Balance : 0
+
+Currency : eon
+Balance Type : trade
+Balance : 0
+
+Currency : eon
+Balance Type : frozen
+Balance : 0
+
+Currency : eop
+Balance Type : trade
+Balance : 0
+
+Currency : eop
+Balance Type : frozen
+Balance : 0
+
+Currency : eos
+Balance Type : trade
+Balance : 0
+
+Currency : eos
+Balance Type : frozen
+Balance : 0
+
+Currency : ht
+Balance Type : trade
+Balance : 3.99
+
+Currency : ht
+Balance Type : frozen
+Balance : 1
+
+Currency : bix
+Balance Type : trade
+Balance : 0
+
+Currency : bix
+Balance Type : frozen
+Balance : 0
+
+Currency : skm
+Balance Type : trade
+Balance : 0
+
+Currency : skm
+Balance Type : frozen
+Balance : 0
+
+Currency : skl
+Balance Type : trade
+Balance : 0
+
+Currency : skl
+Balance Type : frozen
+Balance : 0
+
+Currency : gtc
+Balance Type : trade
+Balance : 0
+
+Currency : gtc
+Balance Type : frozen
+Balance : 0
+
+Currency : 1inch
+Balance Type : trade
+Balance : 0
+
+Currency : 1inch
+Balance Type : frozen
+Balance : 0
+
+Currency : ocn
+Balance Type : trade
+Balance : 0
+
+Currency : ocn
+Balance Type : frozen
+Balance : 0
+
+Currency : flow
+Balance Type : trade
+Balance : 0
+
+Currency : flow
+Balance Type : frozen
+Balance : 0
+
+Currency : nas
+Balance Type : trade
+Balance : 0
+
+Currency : nas
+Balance Type : frozen
+Balance : 0
+
+Currency : wtc
+Balance Type : trade
+Balance : 0
+
+Currency : wtc
+Balance Type : frozen
+Balance : 0
+
+Currency : hvt
+Balance Type : trade
+Balance : 0
+
+Currency : hvt
+Balance Type : frozen
+Balance : 0
+
+Currency : xvg
+Balance Type : trade
+Balance : 0
+
+Currency : xvg
+Balance Type : frozen
+Balance : 0
+
+Currency : iq
+Balance Type : trade
+Balance : 0
+
+Currency : iq
+Balance Type : frozen
+Balance : 0
+
+Currency : tnb
+Balance Type : trade
+Balance : 0
+
+Currency : tnb
+Balance Type : frozen
+Balance : 0
+
+Currency : btc3s
+Balance Type : trade
+Balance : 0
+
+Currency : btc3s
+Balance Type : frozen
+Balance : 0
+
+Currency : powr
+Balance Type : trade
+Balance : 0
+
+Currency : powr
+Balance Type : frozen
+Balance : 0
+
+Currency : btc3l
+Balance Type : trade
+Balance : 0
+
+Currency : btc3l
+Balance Type : frozen
+Balance : 0
+
+Currency : tnt
+Balance Type : trade
+Balance : 0
+
+Currency : tnt
+Balance Type : frozen
+Balance : 0
+
+Currency : nbs
+Balance Type : trade
+Balance : 0
+
+Currency : nbs
+Balance Type : frozen
+Balance : 0
+
+Currency : fsn
+Balance Type : trade
+Balance : 0
+
+Currency : fsn
+Balance Type : frozen
+Balance : 0
+
+Currency : don
+Balance Type : trade
+Balance : 0
+
+Currency : don
+Balance Type : frozen
+Balance : 0
+
+Currency : bags
+Balance Type : trade
+Balance : 0
+
+Currency : bags
+Balance Type : frozen
+Balance : 0
+
+Currency : dot
+Balance Type : trade
+Balance : 0
+
+Currency : dot
+Balance Type : frozen
+Balance : 0
+
+Currency : cmt
+Balance Type : trade
+Balance : 0
+
+Currency : cmt
+Balance Type : frozen
+Balance : 0
+
+Currency : ncc
+Balance Type : trade
+Balance : 0
+
+Currency : ncc
+Balance Type : frozen
+Balance : 0
+
+Currency : top
+Balance Type : trade
+Balance : 0
+
+Currency : top
+Balance Type : frozen
+Balance : 0
+
+Currency : gve
+Balance Type : trade
+Balance : 0
+
+Currency : gve
+Balance Type : frozen
+Balance : 0
+
+Currency : cvnt
+Balance Type : trade
+Balance : 0
+
+Currency : cvnt
+Balance Type : frozen
+Balance : 0
+
+Currency : tos
+Balance Type : trade
+Balance : 0.0001
+
+Currency : tos
+Balance Type : frozen
+Balance : 0
+
+Currency : fti
+Balance Type : trade
+Balance : 0
+
+Currency : fti
+Balance Type : frozen
+Balance : 0
+
+Currency : smt
+Balance Type : trade
+Balance : 0
+
+Currency : smt
+Balance Type : frozen
+Balance : 0
+
+Currency : man
+Balance Type : trade
+Balance : 0
+
+Currency : man
+Balance Type : frozen
+Balance : 0
+
+Currency : cnn
+Balance Type : trade
+Balance : 0
+
+Currency : cnn
+Balance Type : frozen
+Balance : 0
+
+Currency : ftt
+Balance Type : trade
+Balance : 0
+
+Currency : ftt
+Balance Type : frozen
+Balance : 0
+
+Currency : pha
+Balance Type : trade
+Balance : 0
+
+Currency : pha
+Balance Type : frozen
+Balance : 0
+
+Currency : snc
+Balance Type : trade
+Balance : 0
+
+Currency : snc
+Balance Type : frozen
+Balance : 0
+
+Currency : blz
+Balance Type : trade
+Balance : 0
+
+Currency : blz
+Balance Type : frozen
+Balance : 0
+
+Currency : api3
+Balance Type : trade
+Balance : 0
+
+Currency : api3
+Balance Type : frozen
+Balance : 0
+
+Currency : yamv2
+Balance Type : trade
+Balance : 0
+
+Currency : yamv2
+Balance Type : frozen
+Balance : 0
+
+Currency : snt
+Balance Type : trade
+Balance : 0
+
+Currency : snt
+Balance Type : frozen
+Balance : 0
+
+Currency : atom
+Balance Type : trade
+Balance : 0
+
+Currency : atom
+Balance Type : frozen
+Balance : 0
+
+Currency : snx
+Balance Type : trade
+Balance : 0
+
+Currency : snx
+Balance Type : frozen
+Balance : 0
+
+Currency : soc
+Balance Type : trade
+Balance : 0
+
+Currency : soc
+Balance Type : frozen
+Balance : 0
+
+Currency : xym
+Balance Type : trade
+Balance : 0.0000394
+
+Currency : xym
+Balance Type : frozen
+Balance : 0
+
+Currency : sol
+Balance Type : trade
+Balance : 0
+
+Currency : sol
+Balance Type : frozen
+Balance : 0
+
+Currency : ltc3s
+Balance Type : trade
+Balance : 0
+
+Currency : ltc3s
+Balance Type : frozen
+Balance : 0
+
+Currency : etc
+Balance Type : trade
+Balance : 0
+
+Currency : etc
+Balance Type : frozen
+Balance : 0
+
+Currency : etf
+Balance Type : trade
+Balance : 0
+
+Currency : etf
+Balance Type : frozen
+Balance : 0
+
+Currency : ogo
+Balance Type : trade
+Balance : 0
+
+Currency : ogo
+Balance Type : frozen
+Balance : 0
+
+Currency : ogn
+Balance Type : trade
+Balance : 0
+
+Currency : ogn
+Balance Type : frozen
+Balance : 0
+
+Currency : eth
+Balance Type : trade
+Balance : 0
+
+Currency : eth
+Balance Type : frozen
+Balance : 0
+
+Currency : mco
+Balance Type : trade
+Balance : 0
+
+Currency : mco
+Balance Type : frozen
+Balance : 0
+
+Currency : topc
+Balance Type : trade
+Balance : 0
+
+Currency : topc
+Balance Type : frozen
+Balance : 0
+
+Currency : aidoc
+Balance Type : trade
+Balance : 0
+
+Currency : aidoc
+Balance Type : frozen
+Balance : 0
+
+Currency : neo
+Balance Type : trade
+Balance : 0
+
+Currency : neo
+Balance Type : frozen
+Balance : 0
+
+Currency : sushi
+Balance Type : trade
+Balance : 0
+
+Currency : sushi
+Balance Type : frozen
+Balance : 0
+
+Currency : ltc3l
+Balance Type : trade
+Balance : 0
+
+Currency : ltc3l
+Balance Type : frozen
+Balance : 0
+
+Currency : etn
+Balance Type : trade
+Balance : 0
+
+Currency : etn
+Balance Type : frozen
+Balance : 0
+
+Currency : firo
+Balance Type : trade
+Balance : 0
+
+Currency : firo
+Balance Type : frozen
+Balance : 0
+
+Currency : new
+Balance Type : trade
+Balance : 0
+
+Currency : new
+Balance Type : frozen
+Balance : 0
+
+Currency : gxc
+Balance Type : trade
+Balance : 0
+
+Currency : gxc
+Balance Type : frozen
+Balance : 0
+
+Currency : trb
+Balance Type : trade
+Balance : 0
+
+Currency : trb
+Balance Type : frozen
+Balance : 0
+
+Currency : mt
+Balance Type : trade
+Balance : 0
+
+Currency : mt
+Balance Type : frozen
+Balance : 0
+
+Currency : fil3s
+Balance Type : trade
+Balance : 0
+
+Currency : fil3s
+Balance Type : frozen
+Balance : 0
+
+Currency : bnt
+Balance Type : trade
+Balance : 0
+
+Currency : bnt
+Balance Type : frozen
+Balance : 0
+
+Currency : lba
+Balance Type : trade
+Balance : 0
+
+Currency : lba
+Balance Type : frozen
+Balance : 0
+
+Currency : mx
+Balance Type : trade
+Balance : 0
+
+Currency : mx
+Balance Type : frozen
+Balance : 0
+
+Currency : fil3l
+Balance Type : trade
+Balance : 0
+
+Currency : fil3l
+Balance Type : frozen
+Balance : 0
+
+Currency : utk
+Balance Type : trade
+Balance : 0
+
+Currency : utk
+Balance Type : frozen
+Balance : 0
+
+Currency : wxt
+Balance Type : trade
+Balance : 0
+
+Currency : wxt
+Balance Type : frozen
+Balance : 0
+
+Currency : trx
+Balance Type : trade
+Balance : 0
+
+Currency : trx
+Balance Type : frozen
+Balance : 0
+
+Currency : mds
+Balance Type : trade
+Balance : 0
+
+Currency : mds
+Balance Type : frozen
+Balance : 0
+
+Currency : nuls
+Balance Type : trade
+Balance : 0
+
+Currency : nuls
+Balance Type : frozen
+Balance : 0
+
+Currency : mdx
+Balance Type : trade
+Balance : 0
+
+Currency : mdx
+Balance Type : frozen
+Balance : 0
+
+Currency : eur
+Balance Type : trade
+Balance : 0
+
+Currency : eur
+Balance Type : frozen
+Balance : 0
+
+Currency : bor
+Balance Type : trade
+Balance : 0
+
+Currency : bor
+Balance Type : frozen
+Balance : 0
+
+Currency : bot
+Balance Type : trade
+Balance : 0
+
+Currency : bot
+Balance Type : frozen
+Balance : 0
+
+Currency : box
+Balance Type : trade
+Balance : 0
+
+Currency : box
+Balance Type : frozen
+Balance : 0
+
+Currency : meet
+Balance Type : trade
+Balance : 0
+
+Currency : meet
+Balance Type : frozen
+Balance : 0
+
+Currency : uni2l
+Balance Type : trade
+Balance : 0
+
+Currency : uni2l
+Balance Type : frozen
+Balance : 0
+
+Currency : arpa
+Balance Type : trade
+Balance : 0
+
+Currency : arpa
+Balance Type : frozen
+Balance : 0
+
+Currency : dta
+Balance Type : trade
+Balance : 0
+
+Currency : dta
+Balance Type : frozen
+Balance : 0
+
+Currency : uuu
+Balance Type : trade
+Balance : 0
+
+Currency : uuu
+Balance Type : frozen
+Balance : 0
+
+Currency : uni2s
+Balance Type : trade
+Balance : 0
+
+Currency : uni2s
+Balance Type : frozen
+Balance : 0
+
+Currency : cre
+Balance Type : trade
+Balance : 0
+
+Currency : cre
+Balance Type : frozen
+Balance : 0
+
+Currency : zec3l
+Balance Type : trade
+Balance : 0
+
+Currency : zec3l
+Balance Type : frozen
+Balance : 0
+
+Currency : kan
+Balance Type : trade
+Balance : 0
+
+Currency : kan
+Balance Type : frozen
+Balance : 0
+
+Currency : beth
+Balance Type : trade
+Balance : 0
+
+Currency : beth
+Balance Type : frozen
+Balance : 0
+
+Currency : zec3s
+Balance Type : trade
+Balance : 0
+
+Currency : zec3s
+Balance Type : frozen
+Balance : 0
+
+Currency : mex
+Balance Type : trade
+Balance : 0
+
+Currency : mex
+Balance Type : frozen
+Balance : 0
+
+Currency : cro
+Balance Type : trade
+Balance : 0
+
+Currency : cro
+Balance Type : frozen
+Balance : 0
+
+Currency : evx
+Balance Type : trade
+Balance : 0
+
+Currency : evx
+Balance Type : frozen
+Balance : 0
+
+Currency : ant
+Balance Type : trade
+Balance : 0
+
+Currency : ant
+Balance Type : frozen
+Balance : 0
+
+Currency : crv
+Balance Type : trade
+Balance : 0
+
+Currency : crv
+Balance Type : frozen
+Balance : 0
+
+Currency : cru
+Balance Type : trade
+Balance : 0
+
+Currency : cru
+Balance Type : frozen
+Balance : 0
+
+Currency : btc1s
+Balance Type : trade
+Balance : 0
+
+Currency : btc1s
+Balance Type : frozen
+Balance : 0
+
+Currency : srn
+Balance Type : trade
+Balance : 0
+
+Currency : srn
+Balance Type : frozen
+Balance : 0
+
+Currency : badger
+Balance Type : trade
+Balance : 0
+
+Currency : badger
+Balance Type : frozen
+Balance : 0
+
+Currency : pc
+Balance Type : trade
+Balance : 0
+
+Currency : pc
+Balance Type : frozen
+Balance : 0
+
+Currency : lamb
+Balance Type : trade
+Balance : 0
+
+Currency : lamb
+Balance Type : frozen
+Balance : 0
+
+Currency : phx
+Balance Type : trade
+Balance : 0
+
+Currency : phx
+Balance Type : frozen
+Balance : 0
+
+Currency : ring
+Balance Type : trade
+Balance : 0
+
+Currency : ring
+Balance Type : frozen
+Balance : 0
+
+Currency : bsv3l
+Balance Type : trade
+Balance : 0
+
+Currency : bsv3l
+Balance Type : frozen
+Balance : 0
+
+Currency : ssp
+Balance Type : trade
+Balance : 0.0002
+
+Currency : ssp
+Balance Type : frozen
+Balance : 0
+
+Currency : mgo
+Balance Type : trade
+Balance : 0
+
+Currency : mgo
+Balance Type : frozen
+Balance : 0
+
+Currency : qi
+Balance Type : trade
+Balance : 0
+
+Currency : qi
+Balance Type : frozen
+Balance : 0
+
+Currency : let
+Balance Type : trade
+Balance : 0
+
+Currency : let
+Balance Type : frozen
+Balance : 0
+
+Currency : band
+Balance Type : trade
+Balance : 0
+
+Currency : band
+Balance Type : frozen
+Balance : 0
+
+Currency : iotx
+Balance Type : trade
+Balance : 0
+
+Currency : iotx
+Balance Type : frozen
+Balance : 0
+
+Currency : dock
+Balance Type : trade
+Balance : 0
+
+Currency : dock
+Balance Type : frozen
+Balance : 0
+
+Currency : bt1
+Balance Type : trade
+Balance : 0
+
+Currency : bt1
+Balance Type : frozen
+Balance : 0
+
+Currency : apn
+Balance Type : trade
+Balance : 0
+
+Currency : apn
+Balance Type : frozen
+Balance : 0
+
+Currency : pearl
+Balance Type : trade
+Balance : 0
+
+Currency : pearl
+Balance Type : frozen
+Balance : 0
+
+Currency : waves
+Balance Type : trade
+Balance : 0
+
+Currency : waves
+Balance Type : frozen
+Balance : 0
+
+Currency : bt2
+Balance Type : trade
+Balance : 0
+
+Currency : bt2
+Balance Type : frozen
+Balance : 0
+
+Currency : reef
+Balance Type : trade
+Balance : 0
+
+Currency : reef
+Balance Type : frozen
+Balance : 0
+
+Currency : iota
+Balance Type : trade
+Balance : 0.0000552
+
+Currency : iota
+Balance Type : frozen
+Balance : 0
+
+Currency : stk
+Balance Type : trade
+Balance : 0
+
+Currency : stk
+Balance Type : frozen
+Balance : 0
+
+Currency : stn
+Balance Type : trade
+Balance : 0
+
+Currency : stn
+Balance Type : frozen
+Balance : 0
+
+Currency : node
+Balance Type : trade
+Balance : 0
+
+Currency : node
+Balance Type : frozen
+Balance : 0
+
+Currency : musk
+Balance Type : trade
+Balance : 0
+
+Currency : musk
+Balance Type : frozen
+Balance : 0
+
+Currency : iost
+Balance Type : trade
+Balance : 0.0000984
+
+Currency : iost
+Balance Type : frozen
+Balance : 0
+
+Currency : pnt
+Balance Type : trade
+Balance : 0
+
+Currency : pnt
+Balance Type : frozen
+Balance : 0
+
+Currency : bsv3s
+Balance Type : trade
+Balance : 0
+
+Currency : bsv3s
+Balance Type : frozen
+Balance : 0
+
+Currency : bsv
+Balance Type : trade
+Balance : 0
+
+Currency : bsv
+Balance Type : frozen
+Balance : 0
+
+Currency : omg
+Balance Type : trade
+Balance : 0
+
+Currency : omg
+Balance Type : frozen
+Balance : 0
+
+Currency : sun
+Balance Type : trade
+Balance : 0
+
+Currency : sun
+Balance Type : frozen
+Balance : 0
+
+Currency : wbtc
+Balance Type : trade
+Balance : 0
+
+Currency : wbtc
+Balance Type : frozen
+Balance : 0
+
+Currency : appc
+Balance Type : trade
+Balance : 0
+
+Currency : appc
+Balance Type : frozen
+Balance : 0
+
+Currency : btc
+Balance Type : trade
+Balance : 0
+
+Currency : btc
+Balance Type : frozen
+Balance : 0
+
+Currency : sc
+Balance Type : trade
+Balance : 0
+
+Currency : sc
+Balance Type : frozen
+Balance : 0
+
+Currency : rsr
+Balance Type : trade
+Balance : 0
+
+Currency : rsr
+Balance Type : frozen
+Balance : 0
+
+Currency : nkn
+Balance Type : trade
+Balance : 0
+
+Currency : nkn
+Balance Type : frozen
+Balance : 0
+
+Currency : cvc
+Balance Type : trade
+Balance : 0
+
+Currency : cvc
+Balance Type : frozen
+Balance : 0
+
+Currency : btg
+Balance Type : trade
+Balance : 0
+
+Currency : btg
+Balance Type : frozen
+Balance : 0
+
+Currency : link3l
+Balance Type : trade
+Balance : 0
+
+Currency : link3l
+Balance Type : frozen
+Balance : 0
+
+Currency : btm
+Balance Type : trade
+Balance : 0
+
+Currency : btm
+Balance Type : frozen
+Balance : 0
+
+Currency : cvcoin
+Balance Type : trade
+Balance : 0
+
+Currency : cvcoin
+Balance Type : frozen
+Balance : 0
+
+Currency : cvp
+Balance Type : trade
+Balance : 0
+
+Currency : cvp
+Balance Type : frozen
+Balance : 0
+
+Currency : link3s
+Balance Type : trade
+Balance : 0
+
+Currency : link3s
+Balance Type : frozen
+Balance : 0
+
+Currency : bts
+Balance Type : trade
+Balance : 0
+
+Currency : bts
+Balance Type : frozen
+Balance : 0
+
+Currency : rte
+Balance Type : trade
+Balance : 0
+
+Currency : rte
+Balance Type : frozen
+Balance : 0
+
+Currency : btt
+Balance Type : trade
+Balance : 0
+
+Currency : btt
+Balance Type : frozen
+Balance : 0
+
+Currency : rccc
+Balance Type : trade
+Balance : 0
+
+Currency : rccc
+Balance Type : frozen
+Balance : 0
+
+Currency : yam
+Balance Type : trade
+Balance : 0
+
+Currency : yam
+Balance Type : frozen
+Balance : 0
+
+Currency : one
+Balance Type : trade
+Balance : 0
+
+Currency : one
+Balance Type : frozen
+Balance : 0
+
+Currency : ong
+Balance Type : trade
+Balance : 0
+
+Currency : ong
+Balance Type : frozen
+Balance : 0
+
+Currency : nest
+Balance Type : trade
+Balance : 0
+
+Currency : nest
+Balance Type : frozen
+Balance : 0
+
+Currency : storj
+Balance Type : trade
+Balance : 0
+
+Currency : storj
+Balance Type : frozen
+Balance : 0
+
+Currency : ugas
+Balance Type : trade
+Balance : 0
+
+Currency : ugas
+Balance Type : frozen
+Balance : 0
+
+Currency : mana
+Balance Type : trade
+Balance : 0
+
+Currency : mana
+Balance Type : frozen
+Balance : 0
+
+Currency : ont
+Balance Type : trade
+Balance : 0
+
+Currency : ont
+Balance Type : frozen
+Balance : 0
+
+Currency : bkbt
+Balance Type : trade
+Balance : 0
+
+Currency : bkbt
+Balance Type : frozen
+Balance : 0
+
+Currency : ruff
+Balance Type : trade
+Balance : 0
+
+Currency : ruff
+Balance Type : frozen
+Balance : 0
+
+Currency : onx
+Balance Type : trade
+Balance : 0
+
+Currency : onx
+Balance Type : frozen
+Balance : 0
+
+Currency : ankr
+Balance Type : trade
+Balance : 0
+
+Currency : ankr
+Balance Type : frozen
+Balance : 0
+
+Currency : algo
+Balance Type : trade
+Balance : 0
+
+Currency : algo
+Balance Type : frozen
+Balance : 0
+
+Currency : rub
+Balance Type : trade
+Balance : 0
+
+Currency : rub
+Balance Type : frozen
+Balance : 0
+
+Currency : but
+Balance Type : trade
+Balance : 0
+
+Currency : but
+Balance Type : frozen
+Balance : 0
+
+Currency : tt
+Balance Type : trade
+Balance : 0
+
+Currency : tt
+Balance Type : frozen
+Balance : 0
+
+Currency : ast
+Balance Type : trade
+Balance : 0
+
+Currency : ast
+Balance Type : frozen
+Balance : 0
+
+Currency : wicc
+Balance Type : trade
+Balance : 0
+
+Currency : wicc
+Balance Type : frozen
+Balance : 0
+
+Currency : doge
+Balance Type : trade
+Balance : 0
+
+Currency : doge
+Balance Type : frozen
+Balance : 0
+
+Currency : nano
+Balance Type : trade
+Balance : 0
+
+Currency : nano
+Balance Type : frozen
+Balance : 0
+
+Currency : uc
+Balance Type : trade
+Balance : 0
+
+Currency : uc
+Balance Type : frozen
+Balance : 0
+
+Currency : qsp
+Balance Type : trade
+Balance : 0
+
+Currency : qsp
+Balance Type : frozen
+Balance : 0
+
+Currency : loom
+Balance Type : trade
+Balance : 0
+
+Currency : loom
+Balance Type : frozen
+Balance : 0
+
+Currency : mkr
+Balance Type : trade
+Balance : 0
+
+Currency : mkr
+Balance Type : frozen
+Balance : 0
+
+Currency : ycc
+Balance Type : trade
+Balance : 0
+
+Currency : ycc
+Balance Type : frozen
+Balance : 0
+
+Currency : zec
+Balance Type : trade
+Balance : 0
+
+Currency : zec
+Balance Type : frozen
+Balance : 0
+
+Currency : hbar
+Balance Type : trade
+Balance : 0
+
+Currency : hbar
+Balance Type : frozen
+Balance : 0
+
+Currency : atp
+Balance Type : trade
+Balance : 0.0065
+
+Currency : atp
+Balance Type : frozen
+Balance : 0
+
+Currency : ncash
+Balance Type : trade
+Balance : 0
+
+Currency : ncash
+Balance Type : frozen
+Balance : 0
+
+Currency : icx
+Balance Type : trade
+Balance : 0
+
+Currency : icx
+Balance Type : frozen
+Balance : 0
+
+Currency : vsys
+Balance Type : trade
+Balance : 0
+
+Currency : vsys
+Balance Type : frozen
+Balance : 0
+
+Currency : zen
+Balance Type : trade
+Balance : 0
+
+Currency : zen
+Balance Type : frozen
+Balance : 0
+
+Currency : rvn
+Balance Type : trade
+Balance : 0
+
+Currency : rvn
+Balance Type : frozen
+Balance : 0
+
+Currency : propy
+Balance Type : trade
+Balance : 0
+
+Currency : propy
+Balance Type : frozen
+Balance : 0
+
+Currency : mln
+Balance Type : trade
+Balance : 0
+
+Currency : mln
+Balance Type : frozen
+Balance : 0
+
+Currency : kava
+Balance Type : trade
+Balance : 0
+
+Currency : kava
+Balance Type : frozen
+Balance : 0
+
+Currency : idt
+Balance Type : trade
+Balance : 0
+
+Currency : idt
+Balance Type : frozen
+Balance : 0
+
+Currency : tfuel
+Balance Type : trade
+Balance : 0
+
+Currency : tfuel
+Balance Type : frozen
+Balance : 0
+
+Currency : vidy
+Balance Type : trade
+Balance : 0
+
+Currency : vidy
+Balance Type : frozen
+Balance : 0
+
+Currency : perp
+Balance Type : trade
+Balance : 0
+
+Currency : perp
+Balance Type : frozen
+Balance : 0
+
+Currency : mass
+Balance Type : trade
+Balance : 0
+
+Currency : mass
+Balance Type : frozen
+Balance : 0
+
+Currency : qun
+Balance Type : trade
+Balance : 0
+
+Currency : qun
+Balance Type : frozen
+Balance : 0
+
+Currency : auction
+Balance Type : trade
+Balance : 0
+
+Currency : auction
+Balance Type : frozen
+Balance : 0
+
+Currency : pizza
+Balance Type : trade
+Balance : 0
+
+Currency : pizza
+Balance Type : frozen
+Balance : 0
+
+Currency : gas
+Balance Type : trade
+Balance : 0
+
+Currency : gas
+Balance Type : frozen
+Balance : 0
+
+Currency : yee
+Balance Type : trade
+Balance : 0
+
+Currency : yee
+Balance Type : frozen
+Balance : 0
+
+Currency : nexo
+Balance Type : trade
+Balance : 0
+
+Currency : nexo
+Balance Type : frozen
+Balance : 0
+
+Currency : portal
+Balance Type : trade
+Balance : 0
+
+Currency : portal
+Balance Type : frozen
+Balance : 0
+
+Currency : mask
+Balance Type : trade
+Balance : 0
+
+Currency : mask
+Balance Type : frozen
+Balance : 0
+
+Currency : aave
+Balance Type : trade
+Balance : 0
+
+Currency : aave
+Balance Type : frozen
+Balance : 0
+
+Currency : wan
+Balance Type : trade
+Balance : 0
+
+Currency : wan
+Balance Type : frozen
+Balance : 0
+
+Currency : waxp
+Balance Type : trade
+Balance : 0
+
+Currency : waxp
+Balance Type : frozen
+Balance : 0
+
+Currency : insur
+Balance Type : trade
+Balance : 0
+
+Currency : insur
+Balance Type : frozen
+Balance : 0
+
+Currency : gbp
+Balance Type : trade
+Balance : 0
+
+Currency : gbp
+Balance Type : frozen
+Balance : 0
+
+Currency : swftc
+Balance Type : trade
+Balance : 0
+
+Currency : swftc
+Balance Type : frozen
+Balance : 0
+
+Currency : yfi
+Balance Type : trade
+Balance : 0
+
+Currency : yfi
+Balance Type : frozen
+Balance : 0
+
+Currency : avax
+Balance Type : trade
+Balance : 0
+
+Currency : avax
+Balance Type : frozen
+Balance : 0
+
+Currency : xrp3s
+Balance Type : trade
+Balance : 0
+
+Currency : xrp3s
+Balance Type : frozen
+Balance : 0
+
+Currency : value
+Balance Type : trade
+Balance : 0
+
+Currency : value
+Balance Type : frozen
+Balance : 0
+
+Currency : fair
+Balance Type : trade
+Balance : 0
+
+Currency : fair
+Balance Type : frozen
+Balance : 0
+
+Currency : ost
+Balance Type : trade
+Balance : 0
+
+Currency : ost
+Balance Type : frozen
+Balance : 0
+
+Currency : zil
+Balance Type : trade
+Balance : 0
+
+Currency : zil
+Balance Type : frozen
+Balance : 0
+
+Currency : axs
+Balance Type : trade
+Balance : 0
+
+Currency : axs
+Balance Type : frozen
+Balance : 0
+
+Currency : xrp3l
+Balance Type : trade
+Balance : 0
+
+Currency : xrp3l
+Balance Type : frozen
+Balance : 0
+
+Currency : xem
+Balance Type : trade
+Balance : 0.0000394
+
+Currency : xem
+Balance Type : frozen
+Balance : 0
+
+Currency : comp
+Balance Type : trade
+Balance : 0
+
+Currency : comp
+Balance Type : frozen
+Balance : 0
+
+Currency : 18c
+Balance Type : trade
+Balance : 0
+
+Currency : 18c
+Balance Type : frozen
+Balance : 0
+
+Currency : pvt
+Balance Type : trade
+Balance : 0
+
+Currency : pvt
+Balance Type : frozen
+Balance : 0
+
+Currency : ctxc
+Balance Type : trade
+Balance : 0
+
+Currency : ctxc
+Balance Type : frozen
+Balance : 0
+
+Currency : hive
+Balance Type : trade
+Balance : 0
+
+Currency : hive
+Balance Type : frozen
+Balance : 0
+
+Currency : iic
+Balance Type : trade
+Balance : 0
+
+Currency : iic
+Balance Type : frozen
+Balance : 0
+
+Currency : kmd
+Balance Type : trade
+Balance : 0
+
+Currency : kmd
+Balance Type : frozen
+Balance : 0
+
+Currency : steem
+Balance Type : trade
+Balance : 0
+
+Currency : steem
+Balance Type : frozen
+Balance : 0
+
+Currency : lol
+Balance Type : trade
+Balance : 0
+
+Currency : lol
+Balance Type : frozen
+Balance : 0
+
+Currency : get
+Balance Type : trade
+Balance : 0
+
+Currency : get
+Balance Type : frozen
+Balance : 0
+
+Currency : uah
+Balance Type : trade
+Balance : 0
+
+Currency : uah
+Balance Type : frozen
+Balance : 0
+
+Currency : cnns
+Balance Type : trade
+Balance : 0
+
+Currency : cnns
+Balance Type : frozen
+Balance : 0
+
+Currency : knc
+Balance Type : trade
+Balance : 0
+
+Currency : knc
+Balance Type : frozen
+Balance : 0
+
+Currency : zks
+Balance Type : trade
+Balance : 0
+
+Currency : zks
+Balance Type : frozen
+Balance : 0
+
+Currency : bifi
+Balance Type : trade
+Balance : 0
+
+Currency : bifi
+Balance Type : frozen
+Balance : 0
+
+Currency : zla
+Balance Type : trade
+Balance : 0
+
+Currency : zla
+Balance Type : frozen
+Balance : 0
+
+Currency : chat
+Balance Type : trade
+Balance : 0
+
+Currency : chat
+Balance Type : frozen
+Balance : 0
+
+Currency : eosdac
+Balance Type : trade
+Balance : 0
+
+Currency : eosdac
+Balance Type : frozen
+Balance : 0
+
+Currency : dac
+Balance Type : trade
+Balance : 0
+
+Currency : dac
+Balance Type : frozen
+Balance : 0
+
+Currency : seele
+Balance Type : trade
+Balance : 0
+
+Currency : seele
+Balance Type : frozen
+Balance : 0
+
+Currency : filda
+Balance Type : trade
+Balance : 0
+
+Currency : filda
+Balance Type : frozen
+Balance : 0
+
+Currency : dai
+Balance Type : trade
+Balance : 0
+
+Currency : dai
+Balance Type : frozen
+Balance : 0
+
+Currency : gusd
+Balance Type : trade
+Balance : 0
+
+Currency : gusd
+Balance Type : frozen
+Balance : 0
+
+Currency : hit
+Balance Type : trade
+Balance : 100
+
+Currency : hit
+Balance Type : frozen
+Balance : 0
+
+Currency : dat
+Balance Type : trade
+Balance : 0
+
+Currency : dat
+Balance Type : frozen
+Balance : 0
+
+Currency : usdt
+Balance Type : trade
+Balance : 0.009092000159999999
+
+Currency : usdt
+Balance Type : frozen
+Balance : 0
+
+Currency : titan
+Balance Type : trade
+Balance : 0
+
+Currency : titan
+Balance Type : frozen
+Balance : 0
+
+Currency : mta
+Balance Type : trade
+Balance : 0
+
+Currency : mta
+Balance Type : frozen
+Balance : 0
+
+Currency : lrc
+Balance Type : trade
+Balance : 0
+
+Currency : lrc
+Balance Type : frozen
+Balance : 0
+
+Currency : renbtc
+Balance Type : trade
+Balance : 0
+
+Currency : renbtc
+Balance Type : frozen
+Balance : 0
+
+Currency : ven
+Balance Type : trade
+Balance : 0
+
+Currency : ven
+Balance Type : frozen
+Balance : 0
+
+Currency : swrv
+Balance Type : trade
+Balance : 0
+
+Currency : swrv
+Balance Type : frozen
+Balance : 0
+
+Currency : wgp
+Balance Type : trade
+Balance : 0
+
+Currency : wgp
+Balance Type : frozen
+Balance : 0
+
+Currency : mtl
+Balance Type : trade
+Balance : 0
+
+Currency : mtl
+Balance Type : frozen
+Balance : 0
+
+Currency : dbc
+Balance Type : trade
+Balance : 0
+
+Currency : dbc
+Balance Type : frozen
+Balance : 0
+
+Currency : vet
+Balance Type : trade
+Balance : 0
+
+Currency : vet
+Balance Type : frozen
+Balance : 0
+
+Currency : mtn
+Balance Type : trade
+Balance : 0
+
+Currency : mtn
+Balance Type : frozen
+Balance : 0
+
+Currency : oxt
+Balance Type : trade
+Balance : 0
+
+Currency : oxt
+Balance Type : frozen
+Balance : 0
+
+Currency : usdc
+Balance Type : trade
+Balance : 0
+
+Currency : usdc
+Balance Type : frozen
+Balance : 0
+
+Currency : nvt
+Balance Type : trade
+Balance : 0
+
+Currency : nvt
+Balance Type : frozen
+Balance : 0
+
+Currency : mtx
+Balance Type : trade
+Balance : 0
+
+Currency : mtx
+Balance Type : frozen
+Balance : 0
+
+Currency : edu
+Balance Type : trade
+Balance : 0
+
+Currency : edu
+Balance Type : frozen
+Balance : 0
+
+Currency : dash
+Balance Type : trade
+Balance : 0
+
+Currency : dash
+Balance Type : frozen
+Balance : 0
+
+Currency : pond
+Balance Type : trade
+Balance : 0
+
+Currency : pond
+Balance Type : frozen
+Balance : 0
+
+Currency : lina
+Balance Type : trade
+Balance : 0
+
+Currency : lina
+Balance Type : frozen
+Balance : 0
+
+Currency : lsk
+Balance Type : trade
+Balance : 0
+
+Currency : lsk
+Balance Type : frozen
+Balance : 0
+
+Currency : nsure
+Balance Type : trade
+Balance : 0.0000572
+
+Currency : nsure
+Balance Type : frozen
+Balance : 0
+
+Currency : link
+Balance Type : trade
+Balance : 0
+
+Currency : link
+Balance Type : frozen
+Balance : 0
+
+Currency : akro
+Balance Type : trade
+Balance : 0
+
+Currency : akro
+Balance Type : frozen
+Balance : 0
+
+Currency : qtum
+Balance Type : trade
+Balance : 0
+
+Currency : qtum
+Balance Type : frozen
+Balance : 0
+
+Currency : dcr
+Balance Type : trade
+Balance : 0
+
+Currency : dcr
+Balance Type : frozen
+Balance : 0
+
+Currency : ltc
+Balance Type : trade
+Balance : 9.0245148
+
+Currency : ltc
+Balance Type : frozen
+Balance : 0
+
+Currency : inc
+Balance Type : trade
+Balance : 0
+
+Currency : inc
+Balance Type : frozen
+Balance : 0
+
+Currency : mvl
+Balance Type : trade
+Balance : 0
+
+Currency : mvl
+Balance Type : frozen
+Balance : 0
+
+Currency : inj
+Balance Type : trade
+Balance : 0
+
+Currency : inj
+Balance Type : frozen
+Balance : 0
+
+Currency : datx
+Balance Type : trade
+Balance : 0
+
+Currency : datx
+Balance Type : frozen
+Balance : 0
+
+Currency : pols
+Balance Type : trade
+Balance : 0
+
+Currency : pols
+Balance Type : frozen
+Balance : 0
+
+Currency : poly
+Balance Type : trade
+Balance : 0
+
+Currency : poly
+Balance Type : frozen
+Balance : 0
+
+Currency : xlm
+Balance Type : trade
+Balance : 0
+
+Currency : xlm
+Balance Type : frozen
+Balance : 0
+
+Currency : front
+Balance Type : trade
+Balance : 0
+
+Currency : front
+Balance Type : frozen
+Balance : 0
+
+Currency : rndr
+Balance Type : trade
+Balance : 0
+
+Currency : rndr
+Balance Type : frozen
+Balance : 0
+

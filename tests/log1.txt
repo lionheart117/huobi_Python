@@ -1,0 +1,711 @@
+Trace Profit @ 2021-04-18 01:15:08.049337
+----------------------------------------------
+The Parameters are:
+1. base_symbol=btt, quote_symbol=usdt, amount=5.000000
+2. stop_loss_rate=0.050000, stop_profit_rate=inf
+3. monitor_sleep_time=0.000000
+4. interval_upper_boundary_list=[0.2, 0.5, 0.9]
+5. interval_rate_list=[0.1, 0.15, 0.2]
+6. interval_delta_list=[0.01, 0.01, 0.01]
+7. test_mode=1
+----------------------------------------------
+
+START TRACING Symbol 'bttusdt' at Price: 1.00999983 @time 1970-01-01 08:00:00.000000 
+
+Monitoring price and price rate:
+1 Times: Symbol 'bttusdt' price: 1.01999867, price_dif: 0.00999883, price_dif_rate: 0.98998366% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+2 Times: Symbol 'bttusdt' price: 1.02999550, price_dif: 0.01999567, price_dif_rate: 1.97976932% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+3 Times: Symbol 'bttusdt' price: 1.03998933, price_dif: 0.02998950, price_dif_rate: 2.96925800% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+4 Times: Symbol 'bttusdt' price: 1.04997917, price_dif: 0.03997934, price_dif_rate: 3.95835075% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+5 Times: Symbol 'bttusdt' price: 1.05996401, price_dif: 0.04996417, price_dif_rate: 4.94694865% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+6 Times: Symbol 'bttusdt' price: 1.06994285, price_dif: 0.05994301, price_dif_rate: 5.93495286% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+7 Times: Symbol 'bttusdt' price: 1.07991469, price_dif: 0.06991486, price_dif_rate: 6.92226457% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+8 Times: Symbol 'bttusdt' price: 1.08987855, price_dif: 0.07987872, price_dif_rate: 7.90878505% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+9 Times: Symbol 'bttusdt' price: 1.09983342, price_dif: 0.08983358, price_dif_rate: 8.89441566% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+10 Times: Symbol 'bttusdt' price: 1.10977830, price_dif: 0.09977847, price_dif_rate: 9.87905782% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = -100.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 1
+
+11 Times: Symbol 'bttusdt' price: 1.11971221, price_dif: 0.10971237, price_dif_rate: 10.86261308% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+12 Times: Symbol 'bttusdt' price: 1.12963414, price_dif: 0.11963431, price_dif_rate: 11.84498307% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+13 Times: Symbol 'bttusdt' price: 1.13954311, price_dif: 0.12954328, price_dif_rate: 12.82606957% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+14 Times: Symbol 'bttusdt' price: 1.14943813, price_dif: 0.13943830, price_dif_rate: 13.80577447% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+15 Times: Symbol 'bttusdt' price: 1.15931821, price_dif: 0.14931837, price_dif_rate: 14.78399979% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+16 Times: Symbol 'bttusdt' price: 1.16918235, price_dif: 0.15918252, price_dif_rate: 15.76064772% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+17 Times: Symbol 'bttusdt' price: 1.17902957, price_dif: 0.16902974, price_dif_rate: 16.73562059% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+18 Times: Symbol 'bttusdt' price: 1.18885889, price_dif: 0.17885906, price_dif_rate: 17.70882091% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+19 Times: Symbol 'bttusdt' price: 1.19866933, price_dif: 0.18866950, price_dif_rate: 18.68015135% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+20 Times: Symbol 'bttusdt' price: 1.20845990, price_dif: 0.19846007, price_dif_rate: 19.64951478% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 1.00000000%, interval_flag_list = [1, 0, 0], hysteresis_cnt = 2
+
+21 Times: Symbol 'bttusdt' price: 1.21822962, price_dif: 0.20822979, price_dif_rate: 20.61681427% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+22 Times: Symbol 'bttusdt' price: 1.22797752, price_dif: 0.21797769, price_dif_rate: 21.58195309% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+23 Times: Symbol 'bttusdt' price: 1.23770263, price_dif: 0.22770279, price_dif_rate: 22.54483472% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+24 Times: Symbol 'bttusdt' price: 1.24740396, price_dif: 0.23740413, price_dif_rate: 23.50536288% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+25 Times: Symbol 'bttusdt' price: 1.25708055, price_dif: 0.24708072, price_dif_rate: 24.46344152% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+26 Times: Symbol 'bttusdt' price: 1.26673144, price_dif: 0.25673160, price_dif_rate: 25.41897482% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+27 Times: Symbol 'bttusdt' price: 1.27635565, price_dif: 0.26635582, price_dif_rate: 26.37186725% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+28 Times: Symbol 'bttusdt' price: 1.28595223, price_dif: 0.27595239, price_dif_rate: 27.32202350% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+29 Times: Symbol 'bttusdt' price: 1.29552021, price_dif: 0.28552037, price_dif_rate: 28.26934856% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+30 Times: Symbol 'bttusdt' price: 1.30505864, price_dif: 0.29505880, price_dif_rate: 29.21374770% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+31 Times: Symbol 'bttusdt' price: 1.31456656, price_dif: 0.30456673, price_dif_rate: 30.15512649% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+32 Times: Symbol 'bttusdt' price: 1.32404303, price_dif: 0.31404320, price_dif_rate: 31.09339078% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+33 Times: Symbol 'bttusdt' price: 1.33348709, price_dif: 0.32348726, price_dif_rate: 32.02844675% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+34 Times: Symbol 'bttusdt' price: 1.34289781, price_dif: 0.33289797, price_dif_rate: 32.96020090% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+35 Times: Symbol 'bttusdt' price: 1.35227423, price_dif: 0.34227440, price_dif_rate: 33.88856004% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+36 Times: Symbol 'bttusdt' price: 1.36161543, price_dif: 0.35161560, price_dif_rate: 34.81343135% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 11.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 1
+
+37 Times: Symbol 'bttusdt' price: 1.37092047, price_dif: 0.36092064, price_dif_rate: 35.73472234% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+38 Times: Symbol 'bttusdt' price: 1.38018842, price_dif: 0.37018858, price_dif_rate: 36.65234088% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+39 Times: Symbol 'bttusdt' price: 1.38941834, price_dif: 0.37941851, price_dif_rate: 37.56619521% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+40 Times: Symbol 'bttusdt' price: 1.39860933, price_dif: 0.38860949, price_dif_rate: 38.47619394% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+41 Times: Symbol 'bttusdt' price: 1.40776045, price_dif: 0.39776062, price_dif_rate: 39.38224608% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+42 Times: Symbol 'bttusdt' price: 1.41687080, price_dif: 0.40687097, price_dif_rate: 40.28426101% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+43 Times: Symbol 'bttusdt' price: 1.42593947, price_dif: 0.41593963, price_dif_rate: 41.18214855% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+44 Times: Symbol 'bttusdt' price: 1.43496553, price_dif: 0.42496570, price_dif_rate: 42.07581890% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+45 Times: Symbol 'bttusdt' price: 1.44394811, price_dif: 0.43394827, price_dif_rate: 42.96518270% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+46 Times: Symbol 'bttusdt' price: 1.45288629, price_dif: 0.44288645, price_dif_rate: 43.85015100% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+47 Times: Symbol 'bttusdt' price: 1.46177918, price_dif: 0.45177934, price_dif_rate: 44.73063532% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+48 Times: Symbol 'bttusdt' price: 1.47062589, price_dif: 0.46062605, price_dif_rate: 45.60654761% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+49 Times: Symbol 'bttusdt' price: 1.47942554, price_dif: 0.46942571, price_dif_rate: 46.47780027% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+50 Times: Symbol 'bttusdt' price: 1.48817725, price_dif: 0.47817741, price_dif_rate: 47.34430618% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+51 Times: Symbol 'bttusdt' price: 1.49688014, price_dif: 0.48688030, price_dif_rate: 48.20597870% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+52 Times: Symbol 'bttusdt' price: 1.50553334, price_dif: 0.49553351, price_dif_rate: 49.06273165% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+53 Times: Symbol 'bttusdt' price: 1.51413599, price_dif: 0.50413616, price_dif_rate: 49.91447936% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 21.00000000%, interval_flag_list = [1, 1, 0], hysteresis_cnt = 2
+
+54 Times: Symbol 'bttusdt' price: 1.52268723, price_dif: 0.51268740, price_dif_rate: 50.76113665% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+55 Times: Symbol 'bttusdt' price: 1.53118620, price_dif: 0.52118636, price_dif_rate: 51.60261887% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+56 Times: Symbol 'bttusdt' price: 1.53963205, price_dif: 0.52963222, price_dif_rate: 52.43884186% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+57 Times: Symbol 'bttusdt' price: 1.54802394, price_dif: 0.53802410, price_dif_rate: 53.26972200% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+58 Times: Symbol 'bttusdt' price: 1.55636102, price_dif: 0.54636119, price_dif_rate: 54.09517621% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+59 Times: Symbol 'bttusdt' price: 1.56464247, price_dif: 0.55464264, price_dif_rate: 54.91512194% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+60 Times: Symbol 'bttusdt' price: 1.57286746, price_dif: 0.56286763, price_dif_rate: 55.72947719% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+61 Times: Symbol 'bttusdt' price: 1.58103516, price_dif: 0.57103533, price_dif_rate: 56.53816054% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+62 Times: Symbol 'bttusdt' price: 1.58914476, price_dif: 0.57914492, price_dif_rate: 57.34109111% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+63 Times: Symbol 'bttusdt' price: 1.59719544, price_dif: 0.58719561, price_dif_rate: 58.13818861% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+64 Times: Symbol 'bttusdt' price: 1.60518641, price_dif: 0.59518657, price_dif_rate: 58.92937333% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+65 Times: Symbol 'bttusdt' price: 1.61311685, price_dif: 0.60311702, price_dif_rate: 59.71456615% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+66 Times: Symbol 'bttusdt' price: 1.62098599, price_dif: 0.61098615, price_dif_rate: 60.49368857% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+67 Times: Symbol 'bttusdt' price: 1.62879302, price_dif: 0.61879319, price_dif_rate: 61.26666265% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+68 Times: Symbol 'bttusdt' price: 1.63653718, price_dif: 0.62653735, price_dif_rate: 62.03341112% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+69 Times: Symbol 'bttusdt' price: 1.64421769, price_dif: 0.63421785, price_dif_rate: 62.79385728% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+70 Times: Symbol 'bttusdt' price: 1.65183377, price_dif: 0.64183394, price_dif_rate: 63.54792511% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+71 Times: Symbol 'bttusdt' price: 1.65938467, price_dif: 0.64938484, price_dif_rate: 64.29553919% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+72 Times: Symbol 'bttusdt' price: 1.66686964, price_dif: 0.65686980, price_dif_rate: 65.03662476% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+73 Times: Symbol 'bttusdt' price: 1.67428791, price_dif: 0.66428808, price_dif_rate: 65.77110771% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+74 Times: Symbol 'bttusdt' price: 1.68163876, price_dif: 0.67163893, price_dif_rate: 66.49891461% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+75 Times: Symbol 'bttusdt' price: 1.68892145, price_dif: 0.67892161, price_dif_rate: 67.21997265% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+76 Times: Symbol 'bttusdt' price: 1.69613524, price_dif: 0.68613541, price_dif_rate: 67.93420975% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+77 Times: Symbol 'bttusdt' price: 1.70327942, price_dif: 0.69327959, price_dif_rate: 68.64155448% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+78 Times: Symbol 'bttusdt' price: 1.71035327, price_dif: 0.70035344, price_dif_rate: 69.34193610% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 36.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 1
+
+79 Times: Symbol 'bttusdt' price: 1.71735609, price_dif: 0.70735626, price_dif_rate: 70.03528458% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+80 Times: Symbol 'bttusdt' price: 1.72428717, price_dif: 0.71428734, price_dif_rate: 70.72153058% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+81 Times: Symbol 'bttusdt' price: 1.73114583, price_dif: 0.72114600, price_dif_rate: 71.40060548% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+82 Times: Symbol 'bttusdt' price: 1.73793137, price_dif: 0.72793154, price_dif_rate: 72.07244138% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+83 Times: Symbol 'bttusdt' price: 1.74464312, price_dif: 0.73464329, price_dif_rate: 72.73697108% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+84 Times: Symbol 'bttusdt' price: 1.75128041, price_dif: 0.74128057, price_dif_rate: 73.39412813% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+85 Times: Symbol 'bttusdt' price: 1.75784256, price_dif: 0.74784273, price_dif_rate: 74.04384683% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+86 Times: Symbol 'bttusdt' price: 1.76432894, price_dif: 0.75432910, price_dif_rate: 74.68606219% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+87 Times: Symbol 'bttusdt' price: 1.77073888, price_dif: 0.76073905, price_dif_rate: 75.32071001% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+88 Times: Symbol 'bttusdt' price: 1.77707175, price_dif: 0.76707191, price_dif_rate: 75.94772681% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+89 Times: Symbol 'bttusdt' price: 1.78332691, price_dif: 0.77332708, price_dif_rate: 76.56704989% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+90 Times: Symbol 'bttusdt' price: 1.78950374, price_dif: 0.77950391, price_dif_rate: 77.17861733% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+91 Times: Symbol 'bttusdt' price: 1.79560162, price_dif: 0.78560179, price_dif_rate: 77.78236795% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+92 Times: Symbol 'bttusdt' price: 1.80161994, price_dif: 0.79162011, price_dif_rate: 78.37824140% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+93 Times: Symbol 'bttusdt' price: 1.80755810, price_dif: 0.79755827, price_dif_rate: 78.96617809% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+94 Times: Symbol 'bttusdt' price: 1.81341550, price_dif: 0.80341567, price_dif_rate: 79.54611921% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+95 Times: Symbol 'bttusdt' price: 1.81919157, price_dif: 0.80919173, price_dif_rate: 80.11800678% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+96 Times: Symbol 'bttusdt' price: 1.82488571, price_dif: 0.81488588, price_dif_rate: 80.68178361% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+97 Times: Symbol 'bttusdt' price: 1.83049737, price_dif: 0.82049754, price_dif_rate: 81.23739332% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+98 Times: Symbol 'bttusdt' price: 1.83602598, price_dif: 0.82602615, price_dif_rate: 81.78478035% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+99 Times: Symbol 'bttusdt' price: 1.84147098, price_dif: 0.83147115, price_dif_rate: 82.32388997% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+100 Times: Symbol 'bttusdt' price: 1.84683184, price_dif: 0.83683201, price_dif_rate: 82.85466825% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+101 Times: Symbol 'bttusdt' price: 1.85210802, price_dif: 0.84210819, price_dif_rate: 83.37706214% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+102 Times: Symbol 'bttusdt' price: 1.85729899, price_dif: 0.84729916, price_dif_rate: 83.89101937% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+103 Times: Symbol 'bttusdt' price: 1.86240423, price_dif: 0.85240439, price_dif_rate: 84.39648857% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+104 Times: Symbol 'bttusdt' price: 1.86742323, price_dif: 0.85742339, price_dif_rate: 84.89341918% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+105 Times: Symbol 'bttusdt' price: 1.87235548, price_dif: 0.86235565, price_dif_rate: 85.38176152% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+106 Times: Symbol 'bttusdt' price: 1.87720050, price_dif: 0.86720067, price_dif_rate: 85.86146674% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+107 Times: Symbol 'bttusdt' price: 1.88195781, price_dif: 0.87195797, price_dif_rate: 86.33248688% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+108 Times: Symbol 'bttusdt' price: 1.88662691, price_dif: 0.87662708, price_dif_rate: 86.79477483% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+109 Times: Symbol 'bttusdt' price: 1.89120736, price_dif: 0.88120753, price_dif_rate: 87.24828437% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+110 Times: Symbol 'bttusdt' price: 1.89569869, price_dif: 0.88569885, price_dif_rate: 87.69297015% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+111 Times: Symbol 'bttusdt' price: 1.90010044, price_dif: 0.89010061, price_dif_rate: 88.12878770% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+112 Times: Symbol 'bttusdt' price: 1.90441219, price_dif: 0.89441236, price_dif_rate: 88.55569343% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+113 Times: Symbol 'bttusdt' price: 1.90863350, price_dif: 0.89863366, price_dif_rate: 88.97364466% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+114 Times: Symbol 'bttusdt' price: 1.91276394, price_dif: 0.90276411, price_dif_rate: 89.38259959% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+115 Times: Symbol 'bttusdt' price: 1.91680311, price_dif: 0.90680328, price_dif_rate: 89.78251733% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 51.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 2
+
+116 Times: Symbol 'bttusdt' price: 1.92075060, price_dif: 0.91075076, price_dif_rate: 90.17335789% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+117 Times: Symbol 'bttusdt' price: 1.92460601, price_dif: 0.91460618, price_dif_rate: 90.55508218% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+118 Times: Symbol 'bttusdt' price: 1.92836897, price_dif: 0.91836913, price_dif_rate: 90.92765203% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+119 Times: Symbol 'bttusdt' price: 1.93203909, price_dif: 0.92203925, price_dif_rate: 91.29103018% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+120 Times: Symbol 'bttusdt' price: 1.93561600, price_dif: 0.92561617, price_dif_rate: 91.64518029% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+121 Times: Symbol 'bttusdt' price: 1.93909936, price_dif: 0.92909952, price_dif_rate: 91.99006696% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+122 Times: Symbol 'bttusdt' price: 1.94248880, price_dif: 0.93248897, price_dif_rate: 92.32565569% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+123 Times: Symbol 'bttusdt' price: 1.94578400, price_dif: 0.93578417, price_dif_rate: 92.65191292% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+124 Times: Symbol 'bttusdt' price: 1.94898462, price_dif: 0.93898479, price_dif_rate: 92.96880604% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+125 Times: Symbol 'bttusdt' price: 1.95209034, price_dif: 0.94209051, price_dif_rate: 93.27630334% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+126 Times: Symbol 'bttusdt' price: 1.95510086, price_dif: 0.94510102, price_dif_rate: 93.57437408% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+127 Times: Symbol 'bttusdt' price: 1.95801586, price_dif: 0.94801603, price_dif_rate: 93.86298845% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+128 Times: Symbol 'bttusdt' price: 1.96083506, price_dif: 0.95083523, price_dif_rate: 94.14211760% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+129 Times: Symbol 'bttusdt' price: 1.96355819, price_dif: 0.95355835, price_dif_rate: 94.41173361% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+130 Times: Symbol 'bttusdt' price: 1.96618495, price_dif: 0.95618512, price_dif_rate: 94.67180951% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+131 Times: Symbol 'bttusdt' price: 1.96871510, price_dif: 0.95871527, price_dif_rate: 94.92231931% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+132 Times: Symbol 'bttusdt' price: 1.97114838, price_dif: 0.96114854, price_dif_rate: 95.16323794% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+133 Times: Symbol 'bttusdt' price: 1.97348454, price_dif: 0.96348471, price_dif_rate: 95.39454132% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+134 Times: Symbol 'bttusdt' price: 1.97572336, price_dif: 0.96572352, price_dif_rate: 95.61620632% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+135 Times: Symbol 'bttusdt' price: 1.97786460, price_dif: 0.96786477, price_dif_rate: 95.82821077% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+136 Times: Symbol 'bttusdt' price: 1.97990806, price_dif: 0.96990823, price_dif_rate: 96.03053348% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+137 Times: Symbol 'bttusdt' price: 1.98185353, price_dif: 0.97185370, price_dif_rate: 96.22315420% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+138 Times: Symbol 'bttusdt' price: 1.98370081, price_dif: 0.97370098, price_dif_rate: 96.40605368% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+139 Times: Symbol 'bttusdt' price: 1.98544973, price_dif: 0.97544990, price_dif_rate: 96.57921363% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+140 Times: Symbol 'bttusdt' price: 1.98710010, price_dif: 0.97710027, price_dif_rate: 96.74261672% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+141 Times: Symbol 'bttusdt' price: 1.98865176, price_dif: 0.97865193, price_dif_rate: 96.89624663% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+142 Times: Symbol 'bttusdt' price: 1.99010456, price_dif: 0.98010473, price_dif_rate: 97.04008799% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+143 Times: Symbol 'bttusdt' price: 1.99145835, price_dif: 0.98145851, price_dif_rate: 97.17412642% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+144 Times: Symbol 'bttusdt' price: 1.99271299, price_dif: 0.98271316, price_dif_rate: 97.29834850% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+145 Times: Symbol 'bttusdt' price: 1.99386836, price_dif: 0.98386853, price_dif_rate: 97.41274182% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+146 Times: Symbol 'bttusdt' price: 1.99492435, price_dif: 0.98492452, price_dif_rate: 97.51729495% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+147 Times: Symbol 'bttusdt' price: 1.99588084, price_dif: 0.98588101, price_dif_rate: 97.61199741% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+148 Times: Symbol 'bttusdt' price: 1.99673775, price_dif: 0.98673792, price_dif_rate: 97.69683976% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+149 Times: Symbol 'bttusdt' price: 1.99749499, price_dif: 0.98749515, price_dif_rate: 97.77181349% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+150 Times: Symbol 'bttusdt' price: 1.99815247, price_dif: 0.98815264, price_dif_rate: 97.83691111% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+151 Times: Symbol 'bttusdt' price: 1.99871014, price_dif: 0.98871031, price_dif_rate: 97.89212612% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+152 Times: Symbol 'bttusdt' price: 1.99916795, price_dif: 0.98916811, price_dif_rate: 97.93745299% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+153 Times: Symbol 'bttusdt' price: 1.99952583, price_dif: 0.98952600, price_dif_rate: 97.97288718% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+154 Times: Symbol 'bttusdt' price: 1.99978376, price_dif: 0.98978393, price_dif_rate: 97.99842517% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+155 Times: Symbol 'bttusdt' price: 1.99994172, price_dif: 0.98994189, price_dif_rate: 98.01406438% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+156 Times: Symbol 'bttusdt' price: 1.99999968, price_dif: 0.98999985, price_dif_rate: 98.01980326% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+157 Times: Symbol 'bttusdt' price: 1.99995765, price_dif: 0.98995781, price_dif_rate: 98.01564124% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+158 Times: Symbol 'bttusdt' price: 1.99981562, price_dif: 0.98981578, price_dif_rate: 98.00157873% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+159 Times: Symbol 'bttusdt' price: 1.99957360, price_dif: 0.98957377, price_dif_rate: 97.97761713% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+160 Times: Symbol 'bttusdt' price: 1.99923163, price_dif: 0.98923180, price_dif_rate: 97.94375884% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+161 Times: Symbol 'bttusdt' price: 1.99878974, price_dif: 0.98878991, price_dif_rate: 97.90000726% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+162 Times: Symbol 'bttusdt' price: 1.99824797, price_dif: 0.98824814, price_dif_rate: 97.84636674% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+163 Times: Symbol 'bttusdt' price: 1.99760638, price_dif: 0.98760655, price_dif_rate: 97.78284267% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+164 Times: Symbol 'bttusdt' price: 1.99686503, price_dif: 0.98686520, price_dif_rate: 97.70944138% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+165 Times: Symbol 'bttusdt' price: 1.99602399, price_dif: 0.98602416, price_dif_rate: 97.62617023% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+166 Times: Symbol 'bttusdt' price: 1.99508335, price_dif: 0.98508352, price_dif_rate: 97.53303753% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+167 Times: Symbol 'bttusdt' price: 1.99404320, price_dif: 0.98404337, price_dif_rate: 97.43005260% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+168 Times: Symbol 'bttusdt' price: 1.99290365, price_dif: 0.98290382, price_dif_rate: 97.31722574% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+169 Times: Symbol 'bttusdt' price: 1.99166481, price_dif: 0.98166498, price_dif_rate: 97.19456823% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+170 Times: Symbol 'bttusdt' price: 1.99032680, price_dif: 0.98032697, price_dif_rate: 97.06209234% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+171 Times: Symbol 'bttusdt' price: 1.98888977, price_dif: 0.97888993, price_dif_rate: 96.91981131% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+172 Times: Symbol 'bttusdt' price: 1.98735384, price_dif: 0.97735401, price_dif_rate: 96.76773937% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+173 Times: Symbol 'bttusdt' price: 1.98571918, price_dif: 0.97571935, price_dif_rate: 96.60589173% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+174 Times: Symbol 'bttusdt' price: 1.98398595, price_dif: 0.97398611, price_dif_rate: 96.43428458% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+175 Times: Symbol 'bttusdt' price: 1.98215432, price_dif: 0.97215448, price_dif_rate: 96.25293507% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+176 Times: Symbol 'bttusdt' price: 1.98022447, price_dif: 0.97022464, price_dif_rate: 96.06186134% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+177 Times: Symbol 'bttusdt' price: 1.97819661, price_dif: 0.96819677, price_dif_rate: 95.86108250% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+178 Times: Symbol 'bttusdt' price: 1.97607092, price_dif: 0.96607109, price_dif_rate: 95.65061862% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+179 Times: Symbol 'bttusdt' price: 1.97384763, price_dif: 0.96384780, price_dif_rate: 95.43049075% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+180 Times: Symbol 'bttusdt' price: 1.97152696, price_dif: 0.96152712, price_dif_rate: 95.20072091% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+181 Times: Symbol 'bttusdt' price: 1.96910913, price_dif: 0.95910930, price_dif_rate: 94.96133206% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+182 Times: Symbol 'bttusdt' price: 1.96659439, price_dif: 0.95659456, price_dif_rate: 94.71234815% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+183 Times: Symbol 'bttusdt' price: 1.96398300, price_dif: 0.95398316, price_dif_rate: 94.45379408% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+184 Times: Symbol 'bttusdt' price: 1.96127520, price_dif: 0.95127537, price_dif_rate: 94.18569570% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+185 Times: Symbol 'bttusdt' price: 1.95847128, price_dif: 0.94847145, price_dif_rate: 93.90807983% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+186 Times: Symbol 'bttusdt' price: 1.95557152, price_dif: 0.94557168, price_dif_rate: 93.62097421% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+187 Times: Symbol 'bttusdt' price: 1.95257619, price_dif: 0.94257636, price_dif_rate: 93.32440757% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+188 Times: Symbol 'bttusdt' price: 1.94948561, price_dif: 0.93948578, price_dif_rate: 93.01840956% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+189 Times: Symbol 'bttusdt' price: 1.94630009, price_dif: 0.93630025, price_dif_rate: 92.70301078% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+190 Times: Symbol 'bttusdt' price: 1.94301993, price_dif: 0.93302010, price_dif_rate: 92.37824276% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+191 Times: Symbol 'bttusdt' price: 1.93964547, price_dif: 0.92964564, price_dif_rate: 92.04413800% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+192 Times: Symbol 'bttusdt' price: 1.93617705, price_dif: 0.92617722, price_dif_rate: 91.70072988% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+193 Times: Symbol 'bttusdt' price: 1.93261501, price_dif: 0.92261518, price_dif_rate: 91.34805277% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+194 Times: Symbol 'bttusdt' price: 1.92895972, price_dif: 0.91895988, price_dif_rate: 90.98614191% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+195 Times: Symbol 'bttusdt' price: 1.92521152, price_dif: 0.91521169, price_dif_rate: 90.61503351% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+196 Times: Symbol 'bttusdt' price: 1.92137081, price_dif: 0.91137097, price_dif_rate: 90.23476468% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+197 Times: Symbol 'bttusdt' price: 1.91743796, price_dif: 0.90743812, price_dif_rate: 89.84537343% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+198 Times: Symbol 'bttusdt' price: 1.91341336, price_dif: 0.90341353, price_dif_rate: 89.44689872% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+199 Times: Symbol 'bttusdt' price: 1.90929743, price_dif: 0.89929759, price_dif_rate: 89.03938039% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+200 Times: Symbol 'bttusdt' price: 1.90509056, price_dif: 0.89509073, price_dif_rate: 88.62285918% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+201 Times: Symbol 'bttusdt' price: 1.90079319, price_dif: 0.89079336, price_dif_rate: 88.19737675% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+202 Times: Symbol 'bttusdt' price: 1.89640574, price_dif: 0.88640591, price_dif_rate: 87.76297565% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+203 Times: Symbol 'bttusdt' price: 1.89192865, price_dif: 0.88192882, price_dif_rate: 87.31969932% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+204 Times: Symbol 'bttusdt' price: 1.88736237, price_dif: 0.87736254, price_dif_rate: 86.86759209% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+205 Times: Symbol 'bttusdt' price: 1.88270735, price_dif: 0.87270752, price_dif_rate: 86.40669916% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+206 Times: Symbol 'bttusdt' price: 1.87796406, price_dif: 0.86796423, price_dif_rate: 85.93706662% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+207 Times: Symbol 'bttusdt' price: 1.87313298, price_dif: 0.86313315, price_dif_rate: 85.45874145% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+208 Times: Symbol 'bttusdt' price: 1.86821458, price_dif: 0.85821475, price_dif_rate: 84.97177146% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+209 Times: Symbol 'bttusdt' price: 1.86320937, price_dif: 0.85320953, price_dif_rate: 84.47620536% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+210 Times: Symbol 'bttusdt' price: 1.85811783, price_dif: 0.84811800, price_dif_rate: 83.97209270% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+211 Times: Symbol 'bttusdt' price: 1.85294048, price_dif: 0.84294065, price_dif_rate: 83.45948389% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+212 Times: Symbol 'bttusdt' price: 1.84767784, price_dif: 0.83767801, price_dif_rate: 82.93843020% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+213 Times: Symbol 'bttusdt' price: 1.84233043, price_dif: 0.83233060, price_dif_rate: 82.40898373% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+214 Times: Symbol 'bttusdt' price: 1.83689879, price_dif: 0.82689896, price_dif_rate: 81.87119742% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+215 Times: Symbol 'bttusdt' price: 1.83138346, price_dif: 0.82138363, price_dif_rate: 81.32512505% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+216 Times: Symbol 'bttusdt' price: 1.82578499, price_dif: 0.81578516, price_dif_rate: 80.77082123% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+217 Times: Symbol 'bttusdt' price: 1.82010395, price_dif: 0.81010411, price_dif_rate: 80.20834138% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+218 Times: Symbol 'bttusdt' price: 1.81434089, price_dif: 0.80434106, price_dif_rate: 79.63774176% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+219 Times: Symbol 'bttusdt' price: 1.80849640, price_dif: 0.79849657, price_dif_rate: 79.05907943% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+220 Times: Symbol 'bttusdt' price: 1.80257107, price_dif: 0.79257123, price_dif_rate: 78.47241225% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+221 Times: Symbol 'bttusdt' price: 1.79656547, price_dif: 0.78656564, price_dif_rate: 77.87779888% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+222 Times: Symbol 'bttusdt' price: 1.79048022, price_dif: 0.78048039, price_dif_rate: 77.27529879% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+223 Times: Symbol 'bttusdt' price: 1.78431593, price_dif: 0.77431609, price_dif_rate: 76.66497223% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+224 Times: Symbol 'bttusdt' price: 1.77807320, price_dif: 0.76807336, price_dif_rate: 76.04688023% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+225 Times: Symbol 'bttusdt' price: 1.77175266, price_dif: 0.76175283, price_dif_rate: 75.42108459% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+226 Times: Symbol 'bttusdt' price: 1.76535495, price_dif: 0.75535512, price_dif_rate: 74.78764791% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+227 Times: Symbol 'bttusdt' price: 1.75888071, price_dif: 0.74888087, price_dif_rate: 74.14663351% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+228 Times: Symbol 'bttusdt' price: 1.75233058, price_dif: 0.74233074, price_dif_rate: 73.49810550% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+229 Times: Symbol 'bttusdt' price: 1.74570521, price_dif: 0.73570538, price_dif_rate: 72.84212874% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+230 Times: Symbol 'bttusdt' price: 1.73900528, price_dif: 0.72900544, price_dif_rate: 72.17876881% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+231 Times: Symbol 'bttusdt' price: 1.73223144, price_dif: 0.72223161, price_dif_rate: 71.50809207% @time: 1970-01-01 08:00:00.000000
+Current parameter: sell_dif_rate = 71.00000000%, interval_flag_list = [1, 1, 1], hysteresis_cnt = 3
+
+232 Times: Symbol 'bttusdt' price: 1.72538439, price_dif: 0.71538455, price_dif_rate: 70.83016556% @time: 1970-01-01 08:00:00.000000
+Get profit, SOLD!
+

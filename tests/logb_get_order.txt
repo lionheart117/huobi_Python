@@ -1,0 +1,59 @@
+Order Id : 259284528657587
+Symbol : egtht
+Price : 0.000001000000000000
+Amount : 100000.000000000000000000
+Create Time : 1618845768229
+Cancel Time : 0
+Finish Time : 0
+Order Type : buy-limit
+Filled Amount : 0.0
+Filled Cash Amount : 0.0
+Filled Fees : 0.0
+Order Source : spot-ios
+Order State : submitted
+Client Order Id : 
+Stop Price : 
+Operator : 
+Next Time : 0
+
+
+buy order:
+======= get order by order id : 260750063149236 =======
+Order Id : 260750063149236
+Symbol : egtht
+Price : 0.0
+Amount : 0.500000000000000000  //ht的数量
+Create Time : 1619020067788
+Cancel Time : 0
+Finish Time : 1619020067805
+Order Type : buy-market
+Filled Amount : 1587.301587301587300000
+Filled Cash Amount : 0.499999999999999999
+Filled Fees : 3.174603174603174600
+Order Source : api
+Order State : filled
+Client Order Id : 
+Stop Price : 
+Operator : 
+Next Time : 0
+
+
+sell order:
+======= get order by order id : 260750080354968 =======
+Order Id : 260750080354968
+Symbol : egtht
+Price : 0.0
+Amount : 1587.300000000000000000  //egt的数量
+Create Time : 1619020072944
+Cancel Time : 0
+Finish Time : 1619020072960
+Order Type : sell-market
+Filled Amount : 1587.300000000000000000
+Filled Cash Amount : 0.492063000000000000
+Filled Fees : 0.000984126000000000
+Order Source : api
+Order State : filled
+Client Order Id : 
+Stop Price : 
+Operator : 
+Next Time : 0

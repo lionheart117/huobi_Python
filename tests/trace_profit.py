@@ -306,6 +306,7 @@ if __name__ == '__main__':
     ###print(precision_cali(float(3.1563126252505009988476953907816e-4), 6))
     ##get_symbol_info(symbol).print_object()
 
+    #pratical function
     if "0" == sys.argv[1]:              #trace the most closely when less than 0.5
         interval_upper_boundary_list = [0.2, 0.5, 1.0]
         interval_rate_list = [0.05, 0.05, 0.1]
