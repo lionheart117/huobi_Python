@@ -121,7 +121,8 @@ def sell_dif_rate_hysteresis(sell_dif_rate, interval_flag_list, hysteresis_cnt, 
         if price_dif > 0 and price_dif_rate < interval:
             break
     for index_flag, flag in enumerate(interval_flag_list):
-        if flag == 0:
+        if 0 == flag and index_flag > 0:
+            index_flag -= index_flag
             break
     if index_boundary >= index_flag:
         index = index_boundary
