@@ -1,13 +1,14 @@
 from huobi.client.trade import TradeClient
 from huobi.constant import *
 from huobi.utils import *
+from keys.py import *
 
 
-symbol_test = "htusdt"
+symbol_test = "ftiusdt"
 
 
-trade_client = TradeClient(api_key="frbghq7rnm-84295db9-cec08962-d7ac0", secret_key="75ddfe95-6cec0c44-89a76e2f-ba80d")
-order_id = trade_client.create_order(symbol=symbol_test, account_id=4090445, order_type=OrderType.SELL_LIMIT, source=OrderSource.API, amount=1.0, price=50000)
+trade_client = TradeClient(g_api_key, g_secret_key)
+order_id = trade_client.create_order(symbol=symbol_test, account_id=g_account_id, order_type=OrderType.SELL_LIMIT, source=OrderSource.API, amount=1.0, price=50000)
 LogInfo.output("created order id : {id}".format(id=order_id))
 
 
