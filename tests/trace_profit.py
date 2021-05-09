@@ -318,28 +318,28 @@ if __name__ == '__main__':
 
     #pratical function
     if "0" == sys.argv[1]:              #trace the most closely when less than 0.5
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
         interval_rate_list = [0.05, 0.05, 0.1]
         stop_profit_rate = float("inf")
     elif "1" == sys.argv[1]:            #trace the most closely when less than 0.2
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
         interval_rate_list = [0.05, 0.1, 0.1]
         stop_profit_rate = float("inf")
     elif "2" == sys.argv[1]:            #trace profit at 10% rate list
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
-        interval_rate_list = [0.1, 0.1, 0.1]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
+        interval_rate_list = [0.1, 0.1, 0.05]
         stop_profit_rate = float("inf")
     elif "3" == sys.argv[1]:            #trace the most profit at risk
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
-        interval_rate_list = [0.05, 0.1, 0.2]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
+        interval_rate_list = [0.1, 0.2, 0.2]
         stop_profit_rate = float("inf")
     elif "4" == sys.argv[1]:            #trace 20% profit
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
         interval_rate_list = [0.05, 0.1, 0.2]
         stop_profit_rate = 0.2
     else:                               #trace the most closely when less than 0.5 
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
-        interval_rate_list = [0.05, 0.05, 0.1]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
+        interval_rate_list = [0.05, 0.1, 0.1]
         stop_profit_rate = float("inf")
 
     base_symbol = sys.argv[2]
