@@ -377,5 +377,5 @@ if __name__ == '__main__':
     test_mode = 0
     test_price_vector = []
 
-
+    #recall main function
     trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval_upper_boundary_list, interval_rate_list, interval_delta_list, stop_loss_rate, stop_profit_rate, buy_sleep_time, sell_sleep_time, buy_max_times, sell_max_times, test_mode, test_price_vector)
