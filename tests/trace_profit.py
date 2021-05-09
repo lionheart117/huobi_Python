@@ -84,14 +84,14 @@ def trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval
 
         #stop loss
         if price_dif < 0 and price_dif_rate >= stop_loss_rate:
-            print("------------Toggle stop loss------------\n")
+            print("------------Trigger stop loss------------\n")
             if not test_mode:
                 must_buy_sell(OrderType.SELL_MARKET, base_symbol, quote_symbol, filled_amount, 999999999, sell_max_times, sell_sleep_time)
             return 0
 
         #stop profit
         if price_dif > 0 and price_dif_rate >= stop_profit_rate:
-            print("------------Toggle stop profit------------\n")
+            print("------------Trigger stop profit------------\n")
             if not test_mode:
                 must_buy_sell(OrderType.SELL_MARKET, base_symbol, quote_symbol, filled_amount, 999999999, sell_max_times, sell_sleep_time)
             return 0
@@ -100,7 +100,7 @@ def trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval
         if price_dif > 0 and price_dif_rate > sell_dif_rate:
             [sell_dif_rate, interval_flag_list, hysteresis_cnt] = sell_dif_rate_hysteresis(sell_dif_rate, interval_flag_list, hysteresis_cnt, price_dif, price_dif_rate, interval_upper_boundary_list, interval_rate_list, interval_delta_list)
         elif price_dif > 0 and price_dif_rate <= sell_dif_rate:
-            print("------------Toggle get enough profit------------\n")
+            print("------------Trigger get enough profit------------\n")
             if not test_mode:
                 must_buy_sell(OrderType.SELL_MARKET, base_symbol, quote_symbol, filled_amount, 999999999, sell_max_times, sell_sleep_time)
             return 0
@@ -122,7 +122,9 @@ def sell_dif_rate_hysteresis(sell_dif_rate, interval_flag_list, hysteresis_cnt, 
             break
     for index_flag, flag in enumerate(interval_flag_list):
         if 0 == flag and index_flag > 0:
-            index_flag -= index_flag
+            index_flag -= 1
+            break
+        elif 0 == flag:
             break
     if index_boundary >= index_flag:
         index = index_boundary
@@ -288,7 +290,6 @@ if __name__ == '__main__':
     #sell_max_times = 20
     #test_mode = 1
     #test_price_vector = [1+numpy.sin(x) for x in numpy.arange(0.01,numpy.pi,0.01)]
-    #trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval_upper_boundary_list, interval_rate_list, interval_delta_list, stop_loss_rate, stop_profit_rate, buy_sleep_time, sell_sleep_time, buy_max_times, sell_max_times, test_mode, test_price_vector)
 
     #testcase2
     #base_symbol = "ekt"
@@ -308,35 +309,57 @@ if __name__ == '__main__':
     #sell_max_times = 20
     #test_mode = 0
     #test_price_vector = [1+numpy.sin(x) for x in numpy.arange(0.01,numpy.pi,0.01)]
-    #trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval_upper_boundary_list, interval_rate_list, interval_delta_list, stop_loss_rate, stop_profit_rate, buy_sleep_time, sell_sleep_time, buy_max_times, sell_max_times, test_mode, test_price_vector)
     ###must_sell(base_symbol, quote_symbol)
     ###print(precision_cali(float(3.1563126252505009988476953907816e-4), 6))
     ##get_symbol_info(symbol).print_object()
 
-    #pratical function
+    #testcase3(very important test case, because this is a real trading case)
+    #base_symbol = "shib"
+    #quote_symbol = "usdt"
+    #symbol = base_symbol + quote_symbol
+    #amount = 8.000000
+    #monitor_sleep_time = 0
+    #interval_upper_boundary_list = [0.2, 0.5, 1.0]
+    #interval_rate_list = [0.05, 0.1, 0.1]
+    #interval_delta_list = [0.01, 0.01, 0.01]
+    #stop_loss_rate = 0.10
+    #stop_profit_rate = float("inf")
+    ##stop_profit_rate = 0.2
+    #buy_sleep_time = 5
+    #sell_sleep_time = 5
+    #buy_max_times = 1
+    #sell_max_times = 20
+    #test_mode = 1
+    #test_price_vector = []
+    #if 1 == test_mode:
+    #    fp = open('./test_vector0', 'r')
+    #    for line in fp:
+    #        test_price_vector.append(float(line.strip('\n')))
+
+    #Formal function
     if "0" == sys.argv[1]:              #trace the most closely when less than 0.5
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
         interval_rate_list = [0.05, 0.05, 0.1]
         stop_profit_rate = float("inf")
     elif "1" == sys.argv[1]:            #trace the most closely when less than 0.2
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
         interval_rate_list = [0.05, 0.1, 0.1]
         stop_profit_rate = float("inf")
     elif "2" == sys.argv[1]:            #trace profit at 10% rate list
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
-        interval_rate_list = [0.1, 0.1, 0.1]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
+        interval_rate_list = [0.1, 0.1, 0.05]
         stop_profit_rate = float("inf")
     elif "3" == sys.argv[1]:            #trace the most profit at risk
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
-        interval_rate_list = [0.05, 0.1, 0.2]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
+        interval_rate_list = [0.1, 0.2, 0.2]
         stop_profit_rate = float("inf")
     elif "4" == sys.argv[1]:            #trace 20% profit
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
         interval_rate_list = [0.05, 0.1, 0.2]
         stop_profit_rate = 0.2
     else:                               #trace the most closely when less than 0.5 
-        interval_upper_boundary_list = [0.2, 0.5, 1.0]
-        interval_rate_list = [0.05, 0.05, 0.1]
+        interval_upper_boundary_list = [0.25, 0.5, 1.0]
+        interval_rate_list = [0.05, 0.1, 0.1]
         stop_profit_rate = float("inf")
 
     base_symbol = sys.argv[2]
@@ -352,4 +375,6 @@ if __name__ == '__main__':
     sell_max_times = 20
     test_mode = 0
     test_price_vector = []
+
+    #recall main function
     trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval_upper_boundary_list, interval_rate_list, interval_delta_list, stop_loss_rate, stop_profit_rate, buy_sleep_time, sell_sleep_time, buy_max_times, sell_max_times, test_mode, test_price_vector)
