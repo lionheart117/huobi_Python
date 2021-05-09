@@ -314,7 +314,7 @@ if __name__ == '__main__':
     ###print(precision_cali(float(3.1563126252505009988476953907816e-4), 6))
     ##get_symbol_info(symbol).print_object()
 
-    #testcase3(very important test case because this is a real trading case)
+    #testcase3(very important test case, because this is a real trading case)
     #base_symbol = "shib"
     #quote_symbol = "usdt"
     #symbol = base_symbol + quote_symbol
