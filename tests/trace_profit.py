@@ -206,7 +206,7 @@ def must_buy_sell(order_type, base_symbol, quote_symbol, amount, price, max_time
                 continue            
         
         if orderObj.state == "filled":
-            filled_price = precision_cali((float(orderObj.filled_cash_amount) / (float(orderObj.filled_amount) - float(orderObj.filled_fees))), symbol_info.price_precision)
+            filled_price = precision_cali((float(orderObj.filled_cash_amount) / float(orderObj.filled_amount)), symbol_info.price_precision)
             filled_amount = precision_cali(float(orderObj.filled_amount), symbol_info.amount_precision) - float(orderObj.filled_fees)
             print("No.%d Order %s state is %s" % (max_times, order_id, orderObj.state)) 
             print("No.%d Order filled amount is %s @filled price: %.8f" % (max_times, filled_amount, filled_price))
