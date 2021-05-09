@@ -315,27 +315,27 @@ if __name__ == '__main__':
     ##get_symbol_info(symbol).print_object()
 
     #testcase3(very important test case because this is a real trading case)
-    base_symbol = "shib"
-    quote_symbol = "usdt"
-    symbol = base_symbol + quote_symbol
-    amount = 8.000000
-    monitor_sleep_time = 0
-    interval_upper_boundary_list = [0.2, 0.5, 1.0]
-    interval_rate_list = [0.05, 0.1, 0.1]
-    interval_delta_list = [0.01, 0.01, 0.01]
-    stop_loss_rate = 0.10
-    stop_profit_rate = float("inf")
-    #stop_profit_rate = 0.2
-    buy_sleep_time = 5
-    sell_sleep_time = 5
-    buy_max_times = 1
-    sell_max_times = 20
-    test_mode = 1
-    test_price_vector = []
-    if 1 == test_mode:
-        fp = open('./test_vector0', 'r')
-        for line in fp:
-            test_price_vector.append(float(line.strip('\n')))
+    #base_symbol = "shib"
+    #quote_symbol = "usdt"
+    #symbol = base_symbol + quote_symbol
+    #amount = 8.000000
+    #monitor_sleep_time = 0
+    #interval_upper_boundary_list = [0.2, 0.5, 1.0]
+    #interval_rate_list = [0.05, 0.1, 0.1]
+    #interval_delta_list = [0.01, 0.01, 0.01]
+    #stop_loss_rate = 0.10
+    #stop_profit_rate = float("inf")
+    ##stop_profit_rate = 0.2
+    #buy_sleep_time = 5
+    #sell_sleep_time = 5
+    #buy_max_times = 1
+    #sell_max_times = 20
+    #test_mode = 1
+    #test_price_vector = []
+    #if 1 == test_mode:
+    #    fp = open('./test_vector0', 'r')
+    #    for line in fp:
+    #        test_price_vector.append(float(line.strip('\n')))
 
     #Formal function
     if "0" == sys.argv[1]:              #trace the most closely when less than 0.5
