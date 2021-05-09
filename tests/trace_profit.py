@@ -205,10 +205,10 @@ def must_buy_sell(order_type, base_symbol, quote_symbol, amount, price, max_time
                 continue            
         
         if orderObj.state == "filled":
-            print("No.%d Order state is %s" % (max_times, orderObj.state)) 
-            print("No.%d Order filled amount is %s" % (max_times, orderObj.filled_amount))
             filled_price = precision_cali((float(orderObj.filled_cash_amount) / (float(orderObj.filled_amount) - float(orderObj.filled_fees))), symbol_info.price_precision)
-            filled_amount = float(orderObj.filled_amount) - float(orderObj.filled_fees)
+            filled_amount = precision_cali(float(orderObj.filled_amount), symbol_info.amount_precision) - float(orderObj.filled_fees)
+            print("No.%d Order %s state is %s" % (max_times, order_id, orderObj.state)) 
+            print("No.%d Order filled amount is %s @filled price: %.8f" % (max_times, filled_amount, filled_price))
             return [filled_price, filled_amount, orderObj.finished_at]
         else:
             while(1):
@@ -345,8 +345,8 @@ if __name__ == '__main__':
     amount = float(sys.argv[4])
     sell_sleep_time = int(sys.argv[5])
     stop_loss_rate = float(sys.argv[6])
+    monitor_sleep_time = float(sys.argv[7])
     symbol = base_symbol + quote_symbol
-    monitor_sleep_time = 1
     interval_delta_list = [0.01, 0.01, 0.01]
     buy_sleep_time = 5
     buy_max_times = 1
