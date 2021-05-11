@@ -1,5 +1,5 @@
 from huobi.client.generic import GenericClient
-from huobi.client.account import AccountClient
+#from huobi.client.account import AccountClient
 from huobi.client.trade import TradeClient
 from huobi.constant import *
 from keys import *
@@ -15,6 +15,8 @@ def trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval
     if not (len(interval_upper_boundary_list) == len(interval_rate_list) == len(interval_delta_list)):
         return -1
 
+    symbol_info = get_symbol_info(symbol)
+
     print("----------------------------------------------")
     print("Parameters:")
     print("1. base_symbol=%s, quote_symbol=%s, symbol=%s, amount=%f" % (base_symbol, quote_symbol, symbol, amount))
@@ -26,6 +28,8 @@ def trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval
     print("7. buy_sleep_time=%d, sell_sleep_time=%d" % (buy_sleep_time, sell_sleep_time))
     print("8. buy_max_times=%d, sell_max_times=%d" % (buy_max_times, sell_max_times))
     print("9. test_mode=%d" % test_mode)
+    print("10. symbol detail info:")
+    symbol_info.print_object()
     print("----------------------------------------------\n")
 
     #Initial
@@ -33,28 +37,23 @@ def trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval
     hysteresis_cnt = 0
     check_times = 1
     market_client = MarketClient()
-    trade_client = TradeClient(api_key=g_api_key, secret_key=g_secret_key)
     interval_flag_list = [0 for x in range(0,len(interval_upper_boundary_list))]   #generate interval flag list according to parameter
 
     #get buy order info from the buy order API
     if 1 == test_mode:
         symbol_start_price = test_price_vector[0]
-        symbol_start_time  = 0
-        #list_obj = market_client.get_market_trade(symbol)
-        #symbol_start_price = list_obj[0].price
-        #symbol_start_time  = list_obj[0].ts
     else:
         #create buy order
-        [symbol_start_price, filled_amount, symbol_start_time] = must_buy_sell(OrderType.BUY_MARKET, base_symbol, quote_symbol, amount, 0, buy_max_times, buy_sleep_time)
+        [symbol_start_price, filled_amount] = must_buy_sell(OrderType.BUY_MARKET, symbol, amount, 0, symbol_info.amount_precision, symbol_info.price_precision, buy_max_times, buy_sleep_time)
 
     #SELL TEST:
     if test_mode == 2:
-        print('TEST_MODE2: START SELL @time', datetime.datetime.fromtimestamp(symbol_start_time/1000).strftime('%Y-%m-%d %H:%M:%S.%f'),'\n')
-        must_buy_sell(OrderType.SELL_MARKET, base_symbol, quote_symbol, filled_amount, 999999999, sell_max_times, sell_sleep_time)
+        print('TEST_MODE2: START SELL:\n')
+        must_buy_sell(OrderType.SELL_MARKET, symbol, filled_amount, 999999999, symbol_info.amount_precision, symbol_info.price_precision, sell_max_times, sell_sleep_time)
         return 0
 
-    print('START TRACING PROFIT from Price: %.8f @' % (symbol_start_price),datetime.datetime.fromtimestamp(symbol_start_time/1000).strftime('%Y-%m-%d %H:%M:%S.%f'),'\n')
-    print('No.\tPRICE\t\tPRICE_DIF\tPRICE_DIF_RATE\tSELL_DIF_RATE\tFLAG_LIST\tCNT\tTIME\n')
+    print('\nSTART TRACING PROFIT:\n')
+    print('No.\tPRICE\t\tPRICE_DIF\tPRICE_DIF_RATE\tSELL_DIF_RATE\tFLAG_LIST\tCNT\tTIME')
 
     #monitor the latest price and price rate
     while(1):
@@ -86,14 +85,14 @@ def trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval
         if price_dif < 0 and price_dif_rate >= stop_loss_rate:
             print("------------Trigger stop loss------------\n")
             if not test_mode:
-                must_buy_sell(OrderType.SELL_MARKET, base_symbol, quote_symbol, filled_amount, 999999999, sell_max_times, sell_sleep_time)
+                must_buy_sell(OrderType.SELL_MARKET, symbol, filled_amount, 999999999, symbol_info.amount_precision, symbol_info.price_precision, sell_max_times, sell_sleep_time)
             return 0
 
         #stop profit
         if price_dif > 0 and price_dif_rate >= stop_profit_rate:
             print("------------Trigger stop profit------------\n")
             if not test_mode:
-                must_buy_sell(OrderType.SELL_MARKET, base_symbol, quote_symbol, filled_amount, 999999999, sell_max_times, sell_sleep_time)
+                must_buy_sell(OrderType.SELL_MARKET, symbol, filled_amount, 999999999, symbol_info.amount_precision, symbol_info.price_precision, sell_max_times, sell_sleep_time)
             return 0
         
         #update price rate and sell when get suitable profit
@@ -102,7 +101,7 @@ def trace_profit(base_symbol, quote_symbol, amount, monitor_sleep_time, interval
         elif price_dif > 0 and price_dif_rate <= sell_dif_rate:
             print("------------Trigger get enough profit------------\n")
             if not test_mode:
-                must_buy_sell(OrderType.SELL_MARKET, base_symbol, quote_symbol, filled_amount, 999999999, sell_max_times, sell_sleep_time)
+                must_buy_sell(OrderType.SELL_MARKET, symbol, filled_amount, 999999999, symbol_info.amount_precision, symbol_info.price_precision, sell_max_times, sell_sleep_time)
             return 0
 
         #loop check times
@@ -149,35 +148,13 @@ def sell_dif_rate_hysteresis(sell_dif_rate, interval_flag_list, hysteresis_cnt, 
 
     return [sell_dif_rate, interval_flag_list, hysteresis_cnt]
 
-def must_buy_sell(order_type, base_symbol, quote_symbol, amount, price, max_times = 20, loop_sleep_time = 3):
-#    account_client = AccountClient(api_key=g_api_key,
-#                              secret_key=g_secret_key)
+def must_buy_sell(order_type, symbol, amount, price, amount_precision, price_precision, max_times = 20, loop_sleep_time = 3):
     trade_client = TradeClient(api_key=g_api_key, secret_key=g_secret_key)
-    symbol = base_symbol + quote_symbol
-    symbol_info = get_symbol_info(symbol)
-    print("START TO %s @" % order_type, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'))
+    print("START TO %s @Local_Time:" % order_type, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'))
     while(max_times):
-#        while(1):
-#            try:
-#                list_obj = account_client.get_balance(account_id=g_account_id)
-#                break
-#            except requests.exceptions.ProxyError as e:
-#                print(e)
-#                continue
-#            except requests.exceptions.ConnectionError as e:
-#                print(e)
-#                continue
-#            except requests.exceptions.ReadTimeout as e:
-#                print(e)
-#                continue            
-#
-#        for index in list_obj:
-#            if index.currency == base_symbol and index.type == "trade":
-#                account_amount = float(index.balance)
-
         while(1):
             try:
-                order_id = trade_client.create_order(symbol, account_id=g_account_id, order_type=order_type, source=OrderSource.API, amount=precision_cali(amount, symbol_info.amount_precision), price=price)
+                order_id = trade_client.create_order(symbol, account_id=g_account_id, order_type=order_type, source=OrderSource.API, amount=precision_cali(amount, amount_precision), price=price)
                 break
             except requests.exceptions.ProxyError as e:
                 print(e)
@@ -206,19 +183,19 @@ def must_buy_sell(order_type, base_symbol, quote_symbol, amount, price, max_time
                 continue            
         
         if orderObj.state == "filled":
-            filled_price = precision_cali((float(orderObj.filled_cash_amount) / float(orderObj.filled_amount)), symbol_info.price_precision)
-            filled_amount = precision_cali(float(orderObj.filled_amount), symbol_info.amount_precision) - float(orderObj.filled_fees)
-            print("No.%d Order %s state is %s" % (max_times, order_id, orderObj.state)) 
+            filled_price = precision_cali((float(orderObj.filled_cash_amount) / float(orderObj.filled_amount)), price_precision)
+            filled_amount = precision_cali(float(orderObj.filled_amount), amount_precision) - float(orderObj.filled_fees)
+            print("No.%d Order %s state is %s @" % (max_times, order_id, orderObj.state), datetime.datetime.fromtimestamp(orderObj.finished_at/1000).strftime('%Y-%m-%d %H:%M:%S.%f')) 
             print("No.%d Order filled amount is %s @filled price: %.8f" % (max_times, filled_amount, filled_price))
-            return [filled_price, filled_amount, orderObj.finished_at]
+            return [filled_price, filled_amount]
         else:
             while(1):
                 canceled_order_id = trade_client.cancel_order(symbol, order_id)
                 if canceled_order_id == order_id:
-                    LogInfo.output("Canceled order {id} done".format(id=canceled_order_id))
+                    print("Canceled order %s done" % canceled_order_id)
                     break
                 else:
-                    LogInfo.output("Canceled order {id} fail".format(id=canceled_order_id))
+                    print("Canceled order %s fail" % canceled_order_id)
                     continue
             while(1):
                 try:
@@ -237,7 +214,7 @@ def must_buy_sell(order_type, base_symbol, quote_symbol, amount, price, max_time
             
 
         max_times -= 1
-        amount -= canceled_orderObj.filled_amount
+        amount -= float(canceled_orderObj.filled_amount)
 
 def precision_cali(num,precision):
     num_str = format(num, '.20f')
@@ -309,9 +286,7 @@ if __name__ == '__main__':
     #sell_max_times = 20
     #test_mode = 0
     #test_price_vector = [1+numpy.sin(x) for x in numpy.arange(0.01,numpy.pi,0.01)]
-    ###must_sell(base_symbol, quote_symbol)
     ###print(precision_cali(float(3.1563126252505009988476953907816e-4), 6))
-    ##get_symbol_info(symbol).print_object()
 
     #testcase3(very important test case, because this is a real trading case)
     #base_symbol = "shib"
@@ -361,7 +336,6 @@ if __name__ == '__main__':
         interval_upper_boundary_list = [0.25, 0.5, 1.0]
         interval_rate_list = [0.05, 0.1, 0.1]
         stop_profit_rate = float("inf")
-
     base_symbol = sys.argv[2]
     quote_symbol = sys.argv[3]
     amount = float(sys.argv[4])
